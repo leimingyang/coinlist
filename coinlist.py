@@ -14,6 +14,46 @@ coinlist_path = "coinlist"
 
 
 # ---------------------------------------------------------------------------
+def get_coin_list_current():
+    global coinlist_path
+
+    coindict = {}
+    if os.path.exists(coinlist_path):
+        with open(coinlist_path) as f:
+            coindict = json.load(f)
+
+    return coindict
+
+
+# ---------------------------------------------------------------------------
+def fetch_detail(coin_id):
+    print(coin_id)
+
+    url = "https://coinmarketcap.com/currencies/%s" % coin_id
+    r = requests.get(url)
+    if r.status_code != requests.codes.ok:
+        sys.exit('fetch detail failed: %s' % coin_id)
+
+    soup = BeautifulSoup(r.content, 'html5lib')
+
+    span = soup.find('span', class_='glyphicon glyphicon-link text-gray')
+    if span:
+        a = span.parent.find('a')
+        website = a['href']
+    else:
+        website = ''
+
+    span = soup.find('span', class_='glyphicon glyphicon-hdd text-gray')
+    if span:
+        a = span.parent.find('a')
+        source_code = a['href']
+    else:
+        source_code = ''
+
+    return website, source_code
+
+
+# ---------------------------------------------------------------------------
 def fetch_coinlist():
     global coinlist_path
 
@@ -26,63 +66,34 @@ def fetch_coinlist():
         sys.exit('fetch failed.')
 
     try:
-        coin_list = r.json()
+        coin_list_new = r.json()
     except ValueError:
         sys.exit('json parsing error.')
 
-    with open(coinlist_path, 'w') as g:
-        json.dump([{'id': coin['id'], 'name': coin['name'], 'symbol': coin['symbol']} for coin in coin_list],
-                  g, indent=4)
+    coindict = get_coin_list_current()
+    for coin in coin_list_new:
+        coin_id = coin['id']
 
-
-# ---------------------------------------------------------------------------
-def add_info():
-    global pp
-    global coinlist_path
-
-    print('adding info ...')
-    if not os.path.exists(coinlist_path):
-        fetch_coinlist()
-
-    with open(coinlist_path) as f:
-        cl = json.load(f)
-
-    total = len(cl)
-    count = 0
-    for coin in cl:
-        count += 1
-
-        if 'website' in coin and 'source_code' in coin:
-            continue
-
-        print("%s (%d/%d)" % (coin['name'], count, total))
-
-        id = coin['id']
-        url = "https://coinmarketcap.com/currencies/%s" % id
-        r = requests.get(url)
-        if r.status_code != requests.codes.ok:
-            sys.exit('add info failed.')
-
-        soup = BeautifulSoup(r.content, 'html5lib')
-
-        if 'website' not in coin:
-            span = soup.find('span', class_='glyphicon glyphicon-link text-gray')
-            if span:
-                a = span.parent.find('a')
-                coin['website'] = a['href']
-            else:
-                coin['website'] = ''
-
-        if 'source_code' not in coin:
-            span = soup.find('span', class_='glyphicon glyphicon-hdd text-gray')
-            if span:
-                a = span.parent.find('a')
-                coin['source_code'] = a['href']
-            else:
-                coin['source_code'] = ''
+        if coin_id in coindict:
+            coindict[coin_id]['last_updated'] = coin['last_updated']
+            coindict[coin_id]['rank'] = coin['rank']
+            if coindict[coin_id]['website'] == '' or coindict[coin_id]['source_code'] == '':
+                website, source_code = fetch_detail(coin_id)
+                if website != coindict[coin_id]['website']:
+                    coindict[coin_id]['website'] = website
+                if source_code != coindict[coin_id]['source_code']:
+                    coindict[coin_id]['source_code'] = source_code
+        else:
+            website, source_code = fetch_detail(coin_id)
+            coindict[coin_id] = {'name': coin['name'],
+                                 'symbol': coin['symbol'],
+                                 'rank': coin['rank'],
+                                 'last_updated': coin['last_updated'],
+                                 'website': website,
+                                 'source_code': source_code}
 
         with open(coinlist_path, 'w') as g:
-            json.dump(cl, g, indent=4)
+            json.dump(coindict, g, indent=4)
 
 
 # ---------------------------------------------------------------------------
@@ -90,26 +101,32 @@ def get_coinlist():
     global coinlist_path
 
     if not os.path.exists(coinlist_path):
-        fetch_coinlist()
+        sys.exit('coinlist path not found')
 
     with open(coinlist_path) as f:
-        cl = json.load(f)
+        coin_d = json.load(f)
 
-    if 'website' in cl[0] and 'source_code' in cl[0]:
-        return cl
+    return coin_d
 
-    add_info()
-    with open(coinlist_path) as f:
-        cl = json.load(f)
 
-    return cl
+# ---------------------------------------------------------------------------
+def parse_info(cl):
+    no_website = 0
+    no_source = 0
+    for coin_id in cl:
+        if not cl[coin_id]['website']:
+            no_website += 1
+        if not cl[coin_id]['source_code']:
+            no_source += 1
+
+    print('no website: %d' % no_website)
+    print('no_source: %d' % no_source)
 
 
 # ---------------------------------------------------------------------------
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--fetch", help="do fetch", action="store_true")
-    parser.add_argument("-a", "--add", help="add more info", action="store_true")
     return parser.parse_args()
 
 
@@ -117,8 +134,6 @@ def parse_arguments():
 args = parse_arguments()
 if args.fetch:
     fetch_coinlist()
-if args.add:
-    add_info()
+
 coinlist = get_coinlist()
-pp.pprint(coinlist)
-pp.pprint(len(coinlist))
+parse_info(coinlist)
