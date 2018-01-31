@@ -18,6 +18,7 @@ github = Github(credential['username'], credential['password'])
 
 coinlist_path = "coinlist"
 source_info_path = "source_info"
+repo_path = "repos"
 
 
 # ---------------------------------------------------------------------------
@@ -43,18 +44,6 @@ def get_source_info_current():
             source_info = json.load(f)
 
     return source_info
-
-
-# ---------------------------------------------------------------------------
-def fetch_repos(user):
-    global pp
-
-    repos = []
-    for repo in user.get_repos():
-        repos.append(user.get_repo(repo.name).raw_data)
-
-    # pp.pprint(repos)
-    return repos
 
 
 # ---------------------------------------------------------------------------
@@ -115,9 +104,6 @@ def fetch_source_info(to_fresh):
 
             source_info[coin_symbol]['org'] = result.raw_data
 
-        # repos = fetch_repos(result)
-        # source_info[coin_symbol]['repos'] = repos
-
         with open(source_info_path, 'w') as g:
             json.dump(source_info, g, indent=4)
 
@@ -125,16 +111,34 @@ def fetch_source_info(to_fresh):
 
 
 # ---------------------------------------------------------------------------
-def get_source_info():
-    global source_info_path
+def fetch_repos():
+    global pp
+    global github
+    global repo_path
 
-    if not os.path.exists(source_info_path):
-        sys.exit('source_info path not found')
+    source_info = get_source_info_current()
+    # print(len(source_info))
 
-    with open(coinlist_path) as f:
-        source_info = json.load(f)
+    l = []
+    for coin_symbol in source_info:
+        name = source_info[coin_symbol]['name']
+        # print(name)
+        # pp.pprint(source_info[coin_symbol])
+        if 'org' in source_info[coin_symbol]:
+            org = source_info[coin_symbol]['org']
+            l.append((name, org['public_repos']))
+        elif 'user' in source_info[coin_symbol]:
+            user = source_info[coin_symbol]['user']
+            l.append((name, user['public_repos']))
+        else:
+            print('repo not found: %s' % coin_symbol)
+            continue
 
-    return source_info
+    l.sort(key=lambda x: x[1], reverse=True)
+
+    with open(repo_path, 'w') as g:
+        for item in l:
+            g.write('%s %d\n' % (item[0], item[1]))
 
 
 # ---------------------------------------------------------------------------
@@ -142,7 +146,9 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--source", help="get source info",
                         action="store_true")
-    parser.add_argument("-r", "--refresh", help="refresh source info",
+    parser.add_argument("-f", "--refresh", help="refresh source info",
+                        action="store_true")
+    parser.add_argument("-r", "--repos", help="get repos",
                         action="store_true")
     return parser.parse_args()
 
@@ -151,3 +157,5 @@ def parse_arguments():
 args = parse_arguments()
 if args.source:
     fetch_source_info(args.refresh)
+if args.repos:
+    fetch_repos()
