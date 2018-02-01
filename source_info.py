@@ -20,6 +20,8 @@ github = Github(credential['username'], credential['password'])
 coinlist_path = "coinlist"
 source_info_path = "source_info"
 repo_path = "repos"
+good_repo_path = "good_repos"
+best_repo_path = "best_repos"
 
 
 # ---------------------------------------------------------------------------
@@ -208,6 +210,49 @@ def fetch_repos(to_fresh):
 
 
 # ---------------------------------------------------------------------------
+def get_good_repos():
+    global good_repo_path
+    global best_repo_path
+
+    all_repos = get_repos_current()
+    good_repos_d = {}
+    best_repos_d = {}
+    for coin_symbol in all_repos:
+        name = all_repos[coin_symbol]['name']
+        repos = all_repos[coin_symbol]['repos']
+        good_repos = []
+        best_repos = []
+        for r in repos:
+            if 'parent' in r:
+                continue
+
+            if (r['subscribers_count'] >= 10 and
+                    r['stargazers_count'] >= 10 and
+                    r['forks_count'] >= 10):
+                good_repos.append(r)
+
+            if (r['subscribers_count'] >= 100 or
+                    r['stargazers_count'] >= 100 or
+                    r['forks_count'] >= 100):
+                best_repos.append(r)
+
+        if good_repos:
+            good_repos_d[coin_symbol] = {'name': name}
+            good_repos_d[coin_symbol]['repos'] = good_repos
+
+        if best_repos:
+            print(name)
+            best_repos_d[coin_symbol] = {'name': name}
+            best_repos_d[coin_symbol]['repos'] = best_repos
+
+    with open(good_repo_path, 'w') as g:
+        json.dump(good_repos_d, g, indent=2)
+
+    with open(best_repo_path, 'w') as g:
+        json.dump(best_repos_d, g, indent=2)
+
+
+# ---------------------------------------------------------------------------
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--source", help="get source info",
@@ -215,6 +260,8 @@ def parse_arguments():
     parser.add_argument("-f", "--refresh", help="refresh source info",
                         action="store_true")
     parser.add_argument("-r", "--repos", help="get repos",
+                        action="store_true")
+    parser.add_argument("-g", "--good_repos", help="get good repos",
                         action="store_true")
     return parser.parse_args()
 
@@ -225,3 +272,5 @@ if args.source:
     fetch_source_info(args.refresh)
 if args.repos:
     fetch_repos(args.refresh)
+if args.good_repos:
+    get_good_repos()
