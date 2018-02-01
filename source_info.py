@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import time
 import pprint
 import argparse
 from urllib.parse import urlparse
@@ -98,7 +99,7 @@ def fetch_source_info(to_fresh):
 
         elif result_raw['type'] == 'Organization':
             try:
-                result = github.get_user(paths[0])
+                result = github.get_organization(paths[0])
             except GithubException:
                 sys.exit('Organization not found')
 
@@ -111,7 +112,19 @@ def fetch_source_info(to_fresh):
 
 
 # ---------------------------------------------------------------------------
-def fetch_repos():
+def get_repos_current():
+    global repo_path
+
+    repos = {}
+    if os.path.exists(repo_path):
+        with open(repo_path) as f:
+            repos = json.load(f)
+
+    return repos
+
+
+# ---------------------------------------------------------------------------
+def fetch_repos(to_fresh):
     global pp
     global github
     global repo_path
@@ -119,26 +132,79 @@ def fetch_repos():
     source_info = get_source_info_current()
     # print(len(source_info))
 
-    l = []
+    repo_d = get_repos_current()
     for coin_symbol in source_info:
         name = source_info[coin_symbol]['name']
-        # print(name)
         # pp.pprint(source_info[coin_symbol])
+
         if 'org' in source_info[coin_symbol]:
             org = source_info[coin_symbol]['org']
-            l.append((name, org['public_repos']))
+            public_repos = org['public_repos']
+            if not to_fresh and coin_symbol in repo_d:
+                if public_repos == len(repo_d[coin_symbol]['repos']):
+                    continue
+            try:
+                repos = github.get_user(org['login']).get_repos()
+            except GithubException as e:
+                print('exception: %s' % name)
+                pp.pprint(e)
+                continue
+
         elif 'user' in source_info[coin_symbol]:
             user = source_info[coin_symbol]['user']
-            l.append((name, user['public_repos']))
+            public_repos = user['public_repos']
+            if not to_fresh and coin_symbol in repo_d:
+                if public_repos == len(repo_d[coin_symbol]['repos']):
+                    continue
+            try:
+                repos = github.get_user(user['login']).get_repos()
+            except GithubException as e:
+                print('exception: %s' % name)
+                pp.pprint(e)
+                continue
         else:
             print('repo not found: %s' % coin_symbol)
             continue
 
-    l.sort(key=lambda x: x[1], reverse=True)
+        if github.rate_limiting[0] == 0:
+            print('sleeping for one hour ...')
+            time.sleep(3600)
 
-    with open(repo_path, 'w') as g:
-        for item in l:
-            g.write('%s %d\n' % (item[0], item[1]))
+        print(name)
+
+        repo_d[coin_symbol] = {'name': name, 'repos': []}
+        for repo in repos:
+            try:
+                repo_raw = repo.raw_data
+            except GithubException as e:
+                print('exception: %s' % name)
+                pp.pprint(e)
+                continue
+
+            print("\t%s" % repo_raw['name'])
+            repo_data = {
+                'name': repo_raw['name'],
+                'description': repo_raw['description'],
+                'html_url': repo_raw['html_url'],
+                'size': repo_raw['size'],
+                'language': repo_raw['language'],
+                'subscribers_count': repo_raw['subscribers_count'],
+                'stargazers_count': repo_raw['stargazers_count'],
+                'forks_count': repo_raw['forks_count'],
+                'created_at': repo_raw['created_at'],
+                'pushed_at': repo_raw['pushed_at'],
+                'updated_at': repo_raw['updated_at'],
+                'open_issues_count': repo_raw['open_issues_count'],
+            }
+            if repo_raw['license']:
+                repo_data['license'] = repo_raw['license']['key']
+            if 'parent' in repo_raw:
+                repo_data['parent'] = repo_raw['parent']['full_name']
+
+            repo_d[coin_symbol]['repos'].append(repo_data)
+
+            with open(repo_path, 'w') as g:
+                json.dump(repo_d, g, indent=2)
 
 
 # ---------------------------------------------------------------------------
@@ -158,4 +224,4 @@ args = parse_arguments()
 if args.source:
     fetch_source_info(args.refresh)
 if args.repos:
-    fetch_repos()
+    fetch_repos(args.refresh)
