@@ -4,9 +4,9 @@ import json
 import time
 import pprint
 import argparse
+from operator import itemgetter
 from urllib.parse import urlparse
-from github import Github
-from github import GithubException
+from github import Github, GithubException
 
 
 # ---------------------------------------------------------------------------
@@ -210,46 +210,73 @@ def fetch_repos(to_fresh):
 
 
 # ---------------------------------------------------------------------------
+def insert_repos(repos, r, total):
+    if not repos:
+        repos.append(r)
+        return
+
+    x = -1
+    for i, repo in enumerate(repos):
+        if total >= (repo['subscribers_count'] +
+                     repo['stargazers_count'] + repo['forks_count']):
+            x = i
+            break
+
+    if x == -1:
+        repos.append(r)
+    else:
+        repos.insert(x, r)
+
+
+# ---------------------------------------------------------------------------
 def get_good_repos():
     global good_repo_path
     global best_repo_path
 
     all_repos = get_repos_current()
-    good_repos_d = {}
-    best_repos_d = {}
+    good_repos_dict = {}
+    best_repos_list = []
     for coin_symbol in all_repos:
         name = all_repos[coin_symbol]['name']
         repos = all_repos[coin_symbol]['repos']
         good_repos = []
         best_repos = []
+        max_total = 0
         for r in repos:
             if 'parent' in r:
                 continue
 
-            if (r['subscribers_count'] >= 10 and
-                    r['stargazers_count'] >= 10 and
-                    r['forks_count'] >= 10):
-                good_repos.append(r)
+            subscribers = r['subscribers_count']
+            stargazers = r['stargazers_count']
+            forks = r['forks_count']
+            total = subscribers + stargazers + forks
+            if total > max_total:
+                max_total = total
 
-            if (r['subscribers_count'] >= 100 or
-                    r['stargazers_count'] >= 100 or
-                    r['forks_count'] >= 100):
-                best_repos.append(r)
+            if subscribers >= 10 and stargazers >= 10 and forks >= 10:
+                insert_repos(good_repos, r, total)
+
+            if subscribers >= 100 or stargazers >= 100 or forks >= 100:
+                insert_repos(best_repos, r, total)
 
         if good_repos:
-            good_repos_d[coin_symbol] = {'name': name}
-            good_repos_d[coin_symbol]['repos'] = good_repos
+            good_repos_dict[coin_symbol] = {'name': name}
+            good_repos_dict[coin_symbol]['repos'] = good_repos
 
         if best_repos:
-            print(name)
-            best_repos_d[coin_symbol] = {'name': name}
-            best_repos_d[coin_symbol]['repos'] = best_repos
+            best_repos_list.append((coin_symbol, name, best_repos, max_total))
 
     with open(good_repo_path, 'w') as g:
-        json.dump(good_repos_d, g, indent=2)
+        json.dump(good_repos_dict, g, indent=2)
+
+    best_repos_list.sort(key=itemgetter(3), reverse=True)
+    best_repos_dict = {}
+    for repo in best_repos_list:
+        print(repo[1])
+        best_repos_dict[repo[0]] = {'name': repo[1], 'repos': repo[2]}
 
     with open(best_repo_path, 'w') as g:
-        json.dump(best_repos_d, g, indent=2)
+        json.dump(best_repos_dict, g, indent=2)
 
 
 # ---------------------------------------------------------------------------
