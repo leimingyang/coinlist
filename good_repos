@@ -45,6 +45,22 @@
         "updated_at": "2018-01-30T19:14:37Z",
         "open_issues_count": 2,
         "license": "mit"
+      },
+      {
+        "name": "libbase58",
+        "description": "C library for Bitcoin's base58 encoding",
+        "html_url": "https://github.com/bitcoin/libbase58",
+        "size": 34,
+        "language": "C",
+        "subscribers_count": 28,
+        "stargazers_count": 48,
+        "forks_count": 40,
+        "created_at": "2014-08-26T14:29:13Z",
+        "pushed_at": "2017-04-07T14:15:46Z",
+        "updated_at": "2018-01-30T19:14:42Z",
+        "open_issues_count": 1,
+        "license": "mit",
+        "parent": "luke-jr/libbase58"
       }
     ]
   },
@@ -199,6 +215,22 @@
         "updated_at": "2018-01-31T18:25:24Z",
         "open_issues_count": 93,
         "license": "mit"
+      },
+      {
+        "name": "pyethapp",
+        "description": null,
+        "html_url": "https://github.com/ethereum/pyethapp",
+        "size": 1501,
+        "language": "Python",
+        "subscribers_count": 105,
+        "stargazers_count": 967,
+        "forks_count": 330,
+        "created_at": "2015-04-05T05:26:13Z",
+        "pushed_at": "2018-01-25T00:40:29Z",
+        "updated_at": "2018-01-31T19:47:09Z",
+        "open_issues_count": 85,
+        "license": "mit",
+        "parent": "heikoheiko/pyethapp"
       },
       {
         "name": "ethereum-org",
@@ -496,6 +528,22 @@
         "license": "other"
       },
       {
+        "name": "pydevp2p",
+        "description": "Python Implementation of the Ethereum P2P stack",
+        "html_url": "https://github.com/ethereum/pydevp2p",
+        "size": 500,
+        "language": "Python",
+        "subscribers_count": 40,
+        "stargazers_count": 143,
+        "forks_count": 91,
+        "created_at": "2015-04-05T05:27:20Z",
+        "pushed_at": "2018-02-01T03:56:51Z",
+        "updated_at": "2018-01-30T17:07:13Z",
+        "open_issues_count": 30,
+        "license": "mit",
+        "parent": "heikoheiko/pydevp2p"
+      },
+      {
         "name": "tests",
         "description": "Common tests for all Ethereum implementations",
         "html_url": "https://github.com/ethereum/tests",
@@ -745,6 +793,22 @@
         "license": "mit"
       },
       {
+        "name": "node-ethereum",
+        "description": "[DEPRECATED] a simple standalone or embeddable Ethereum client written for Node.js",
+        "html_url": "https://github.com/ethereum/node-ethereum",
+        "size": 840,
+        "language": "JavaScript",
+        "subscribers_count": 24,
+        "stargazers_count": 47,
+        "forks_count": 28,
+        "created_at": "2014-10-08T20:07:16Z",
+        "pushed_at": "2015-12-09T21:04:15Z",
+        "updated_at": "2018-01-10T08:06:25Z",
+        "open_issues_count": 18,
+        "license": "gpl-2.0",
+        "parent": "wanderer/node-ethereum"
+      },
+      {
         "name": "diary",
         "description": "The Ethereum Developer logs",
         "html_url": "https://github.com/ethereum/diary",
@@ -844,6 +908,21 @@
         "pushed_at": "2018-01-17T03:39:21Z",
         "updated_at": "2018-01-23T15:56:28Z",
         "open_issues_count": 13
+      },
+      {
+        "name": "stake-voice",
+        "description": "Give Ethereum Stakers a voice",
+        "html_url": "https://github.com/ethereum/stake-voice",
+        "size": 428,
+        "language": "JavaScript",
+        "subscribers_count": 13,
+        "stargazers_count": 45,
+        "forks_count": 23,
+        "created_at": "2016-07-05T16:20:41Z",
+        "pushed_at": "2017-07-10T21:28:20Z",
+        "updated_at": "2018-01-04T06:53:50Z",
+        "open_issues_count": 0,
+        "parent": "alexvandesande/stake-voice"
       },
       {
         "name": "oyente",
@@ -1406,6 +1485,21 @@
         "license": "isc"
       },
       {
+        "name": "javascript-style-guide",
+        "description": "JavaScript Style Guide",
+        "html_url": "https://github.com/ripple/javascript-style-guide",
+        "size": 175,
+        "language": null,
+        "subscribers_count": 23,
+        "stargazers_count": 13,
+        "forks_count": 19,
+        "created_at": "2014-03-17T20:48:57Z",
+        "pushed_at": "2017-02-08T19:51:11Z",
+        "updated_at": "2018-01-08T23:09:18Z",
+        "open_issues_count": 0,
+        "parent": "airbnb/javascript"
+      },
+      {
         "name": "simulator",
         "description": "Ripple consensus simulator",
         "html_url": "https://github.com/ripple/simulator",
@@ -1452,6 +1546,22 @@
         "pushed_at": "2018-01-17T02:41:16Z",
         "updated_at": "2018-01-27T09:22:43Z",
         "open_issues_count": 6
+      },
+      {
+        "name": "website",
+        "description": "bitcoincash.org website",
+        "html_url": "https://github.com/bitcoincashorg/website",
+        "size": 54190,
+        "language": "CSS",
+        "subscribers_count": 29,
+        "stargazers_count": 66,
+        "forks_count": 94,
+        "created_at": "2017-09-17T13:57:09Z",
+        "pushed_at": "2018-01-28T12:38:15Z",
+        "updated_at": "2018-01-30T18:54:32Z",
+        "open_issues_count": 16,
+        "license": "mit",
+        "parent": "zquestz/bitcoincash"
       }
     ]
   },
@@ -2122,6 +2232,21 @@
         "license": "mit"
       },
       {
+        "name": "leveldb",
+        "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+        "html_url": "https://github.com/neo-project/leveldb",
+        "size": 766,
+        "language": "C++",
+        "subscribers_count": 13,
+        "stargazers_count": 20,
+        "forks_count": 21,
+        "created_at": "2016-05-19T08:01:45Z",
+        "pushed_at": "2016-10-06T16:18:18Z",
+        "updated_at": "2018-01-13T20:36:02Z",
+        "open_issues_count": 2,
+        "parent": "google/leveldb"
+      },
+      {
         "name": "neo-devpack-java",
         "description": null,
         "html_url": "https://github.com/neo-project/neo-devpack-java",
@@ -2141,6 +2266,22 @@
   "LTC": {
     "name": "Litecoin",
     "repos": [
+      {
+        "name": "litecoin",
+        "description": "Litecoin source tree",
+        "html_url": "https://github.com/litecoin-project/litecoin",
+        "size": 105943,
+        "language": "C++",
+        "subscribers_count": 530,
+        "stargazers_count": 2761,
+        "forks_count": 1686,
+        "created_at": "2012-06-13T04:18:26Z",
+        "pushed_at": "2018-01-31T01:52:37Z",
+        "updated_at": "2018-01-31T21:28:56Z",
+        "open_issues_count": 18,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      },
       {
         "name": "litecore-litecoin",
         "description": "Fork of Litecoin core for use with Litecore",
@@ -2198,6 +2339,69 @@
         "updated_at": "2018-01-03T03:14:14Z",
         "open_issues_count": 7,
         "license": "mit"
+      },
+      {
+        "name": "liteaddress.org",
+        "description": "JavaScript Client-Side Litecoin Wallet Generator",
+        "html_url": "https://github.com/litecoin-project/liteaddress.org",
+        "size": 8703,
+        "language": "HTML",
+        "subscribers_count": 16,
+        "stargazers_count": 61,
+        "forks_count": 30,
+        "created_at": "2015-02-05T02:53:26Z",
+        "pushed_at": "2017-09-11T17:27:35Z",
+        "updated_at": "2018-01-31T04:59:20Z",
+        "open_issues_count": 3,
+        "parent": "pointbiz/bitaddress.org"
+      },
+      {
+        "name": "litecore",
+        "description": "A full stack for litecoin and blockchain-based applications",
+        "html_url": "https://github.com/litecoin-project/litecore",
+        "size": 14941,
+        "language": "Shell",
+        "subscribers_count": 26,
+        "stargazers_count": 34,
+        "forks_count": 29,
+        "created_at": "2016-08-30T20:41:49Z",
+        "pushed_at": "2017-10-05T06:35:44Z",
+        "updated_at": "2018-01-29T00:54:23Z",
+        "open_issues_count": 1,
+        "license": "mit",
+        "parent": "bitpay/bitcore"
+      },
+      {
+        "name": "litecore-lib",
+        "description": "A pure and powerful JavaScript Litecoin library",
+        "html_url": "https://github.com/litecoin-project/litecore-lib",
+        "size": 11714,
+        "language": "JavaScript",
+        "subscribers_count": 22,
+        "stargazers_count": 25,
+        "forks_count": 36,
+        "created_at": "2016-08-30T20:58:29Z",
+        "pushed_at": "2017-11-26T08:58:00Z",
+        "updated_at": "2018-01-22T11:28:14Z",
+        "open_issues_count": 6,
+        "license": "other",
+        "parent": "bitpay/bitcore-lib"
+      },
+      {
+        "name": "litecore-node",
+        "description": "Extensible full node using the Litecore build of Litecoin",
+        "html_url": "https://github.com/litecoin-project/litecore-node",
+        "size": 42514,
+        "language": "JavaScript",
+        "subscribers_count": 21,
+        "stargazers_count": 17,
+        "forks_count": 35,
+        "created_at": "2016-09-02T21:26:19Z",
+        "pushed_at": "2018-01-06T12:56:13Z",
+        "updated_at": "2018-01-09T15:13:30Z",
+        "open_issues_count": 3,
+        "license": "other",
+        "parent": "bitpay/bitcore-node"
       },
       {
         "name": "bitcoinomg",
@@ -2289,6 +2493,36 @@
         "pushed_at": "2017-12-05T17:32:38Z",
         "updated_at": "2018-01-29T01:42:31Z",
         "open_issues_count": 2
+      },
+      {
+        "name": "chainbase",
+        "description": "Snapshot of Last Open Source version of Chainbase from Steem",
+        "html_url": "https://github.com/EOSIO/chainbase",
+        "size": 39,
+        "language": "C++",
+        "subscribers_count": 26,
+        "stargazers_count": 39,
+        "forks_count": 21,
+        "created_at": "2017-05-04T15:11:36Z",
+        "pushed_at": "2017-11-09T23:59:30Z",
+        "updated_at": "2018-01-26T22:21:38Z",
+        "open_issues_count": 0,
+        "parent": "bytemaster/chainbase"
+      },
+      {
+        "name": "appbase",
+        "description": "Framework for building applications based upon plugins",
+        "html_url": "https://github.com/EOSIO/appbase",
+        "size": 33,
+        "language": "C++",
+        "subscribers_count": 20,
+        "stargazers_count": 19,
+        "forks_count": 17,
+        "created_at": "2017-05-04T15:11:59Z",
+        "pushed_at": "2018-01-19T00:00:35Z",
+        "updated_at": "2018-01-25T11:31:54Z",
+        "open_issues_count": 0,
+        "parent": "bytemaster/appbase"
       },
       {
         "name": "genesis",
@@ -2509,6 +2743,22 @@
         "license": "gpl-3.0"
       },
       {
+        "name": "iota.lib.java",
+        "description": "JOTA library is a simple Java wrapper around IOTA (http://www.iota.org/) Node's JSON-REST HTTP interface.",
+        "html_url": "https://github.com/iotaledger/iota.lib.java",
+        "size": 2872,
+        "language": "Java",
+        "subscribers_count": 24,
+        "stargazers_count": 64,
+        "forks_count": 41,
+        "created_at": "2016-10-23T19:34:35Z",
+        "pushed_at": "2018-01-19T09:08:08Z",
+        "updated_at": "2018-01-31T17:45:14Z",
+        "open_issues_count": 16,
+        "license": "apache-2.0",
+        "parent": "davassi/iota.lib.java"
+      },
+      {
         "name": "iota.lib.csharp",
         "description": "Iota.Lib.Csharp",
         "html_url": "https://github.com/iotaledger/iota.lib.csharp",
@@ -2659,6 +2909,22 @@
     "name": "Dash",
     "repos": [
       {
+        "name": "dash",
+        "description": "Dash - Reinventing Cryptocurrency",
+        "html_url": "https://github.com/dashpay/dash",
+        "size": 113392,
+        "language": "C++",
+        "subscribers_count": 228,
+        "stargazers_count": 886,
+        "forks_count": 577,
+        "created_at": "2014-05-01T17:45:34Z",
+        "pushed_at": "2018-02-01T01:10:53Z",
+        "updated_at": "2018-02-01T00:36:49Z",
+        "open_issues_count": 112,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      },
+      {
         "name": "electrum-dash-old",
         "description": "Electrum-DASH - a Dash thin client",
         "html_url": "https://github.com/dashpay/electrum-dash-old",
@@ -2730,6 +2996,22 @@
         "updated_at": "2018-01-27T16:46:45Z",
         "open_issues_count": 6,
         "license": "mit"
+      },
+      {
+        "name": "docker-dashd",
+        "description": "Docker image that runs the Dash dashd node in a container for easy deployment",
+        "html_url": "https://github.com/dashpay/docker-dashd",
+        "size": 81,
+        "language": "Shell",
+        "subscribers_count": 13,
+        "stargazers_count": 12,
+        "forks_count": 18,
+        "created_at": "2016-07-24T14:38:47Z",
+        "pushed_at": "2018-01-20T17:03:26Z",
+        "updated_at": "2017-12-26T03:32:17Z",
+        "open_issues_count": 0,
+        "license": "mit",
+        "parent": "kylemanna/docker-bitcoind"
       },
       {
         "name": "dash-binaries",
@@ -3060,6 +3342,22 @@
         "pushed_at": "2018-01-02T22:18:53Z",
         "updated_at": "2018-02-01T03:46:41Z",
         "open_issues_count": 14
+      },
+      {
+        "name": "etherwallet",
+        "description": "ClassicEtherWallet",
+        "html_url": "https://github.com/ethereumproject/etherwallet",
+        "size": 251401,
+        "language": "JavaScript",
+        "subscribers_count": 16,
+        "stargazers_count": 38,
+        "forks_count": 15,
+        "created_at": "2016-08-04T08:37:57Z",
+        "pushed_at": "2017-12-30T21:05:40Z",
+        "updated_at": "2018-01-31T00:15:44Z",
+        "open_issues_count": 13,
+        "license": "mit",
+        "parent": "kvhnuke/etherwallet"
       },
       {
         "name": "mist",
@@ -3533,6 +3831,21 @@
         "license": "mit"
       },
       {
+        "name": "libsnark",
+        "description": "libsnark: a C++ library for zkSNARK proofs",
+        "html_url": "https://github.com/zcash/libsnark",
+        "size": 1249,
+        "language": "C++",
+        "subscribers_count": 19,
+        "stargazers_count": 50,
+        "forks_count": 24,
+        "created_at": "2016-07-15T16:41:15Z",
+        "pushed_at": "2017-04-07T19:39:59Z",
+        "updated_at": "2018-01-23T00:29:39Z",
+        "open_issues_count": 5,
+        "parent": "scipr-lab/libsnark"
+      },
+      {
         "name": "mpc",
         "description": "zk-SNARK parameter multi-party computation protocol",
         "html_url": "https://github.com/zcash/mpc",
@@ -3582,6 +3895,38 @@
         "license": "mit"
       },
       {
+        "name": "NStratis",
+        "description": "Comprehensive Bitcoin library for the .NET framework.",
+        "html_url": "https://github.com/stratisproject/NStratis",
+        "size": 44546,
+        "language": "C#",
+        "subscribers_count": 36,
+        "stargazers_count": 109,
+        "forks_count": 59,
+        "created_at": "2016-08-18T14:16:04Z",
+        "pushed_at": "2017-11-05T20:44:49Z",
+        "updated_at": "2018-01-29T15:28:37Z",
+        "open_issues_count": 5,
+        "license": "mit",
+        "parent": "MetacoSA/NBitcoin"
+      },
+      {
+        "name": "stratisX",
+        "description": null,
+        "html_url": "https://github.com/stratisproject/stratisX",
+        "size": 19535,
+        "language": "C",
+        "subscribers_count": 49,
+        "stargazers_count": 82,
+        "forks_count": 32,
+        "created_at": "2016-08-06T12:43:20Z",
+        "pushed_at": "2017-11-02T09:37:03Z",
+        "updated_at": "2018-01-28T21:54:11Z",
+        "open_issues_count": 2,
+        "license": "mit",
+        "parent": "JohnDolittle/blackcoin-old"
+      },
+      {
         "name": "Breeze",
         "description": "Project Breeze Repository",
         "html_url": "https://github.com/stratisproject/Breeze",
@@ -3595,6 +3940,21 @@
         "updated_at": "2018-01-26T09:34:32Z",
         "open_issues_count": 17,
         "license": "mit"
+      },
+      {
+        "name": "electrum-stratis",
+        "description": "Electrum; Bitcoin thin client",
+        "html_url": "https://github.com/stratisproject/electrum-stratis",
+        "size": 17297,
+        "language": "Python",
+        "subscribers_count": 16,
+        "stargazers_count": 14,
+        "forks_count": 11,
+        "created_at": "2017-01-05T01:46:46Z",
+        "pushed_at": "2018-01-26T14:27:21Z",
+        "updated_at": "2018-01-25T05:34:08Z",
+        "open_issues_count": 1,
+        "parent": "spesmilo/electrum"
       }
     ]
   },
@@ -3759,6 +4119,22 @@
         "open_issues_count": 8
       },
       {
+        "name": "electrum-xvg",
+        "description": "electrum verge wallet!",
+        "html_url": "https://github.com/vergecurrency/electrum-xvg",
+        "size": 3556,
+        "language": "Python",
+        "subscribers_count": 18,
+        "stargazers_count": 36,
+        "forks_count": 42,
+        "created_at": "2016-02-17T06:09:16Z",
+        "pushed_at": "2018-01-17T02:10:02Z",
+        "updated_at": "2018-01-31T15:20:12Z",
+        "open_issues_count": 0,
+        "license": "gpl-3.0",
+        "parent": "doged/electrum-doged"
+      },
+      {
         "name": "nodejs-verge",
         "description": "a nodejs client for VERGE",
         "html_url": "https://github.com/vergecurrency/nodejs-verge",
@@ -3772,12 +4148,43 @@
         "updated_at": "2018-01-29T12:54:43Z",
         "open_issues_count": 5,
         "license": "mit"
+      },
+      {
+        "name": "electrum-xvg-tor",
+        "description": "XVG TOR Electrum Client for connecting to the VERGE XVG TOR Electrum Server",
+        "html_url": "https://github.com/vergecurrency/electrum-xvg-tor",
+        "size": 3875,
+        "language": "Python",
+        "subscribers_count": 13,
+        "stargazers_count": 15,
+        "forks_count": 13,
+        "created_at": "2016-02-17T09:36:01Z",
+        "pushed_at": "2018-01-27T07:52:46Z",
+        "updated_at": "2018-01-31T15:21:40Z",
+        "open_issues_count": 15,
+        "parent": "doged/electrum-doged-tor"
       }
     ]
   },
   "BTS": {
     "name": "BitShares",
     "repos": [
+      {
+        "name": "bitshares-core",
+        "description": "Your share in the Decentralized Exchange",
+        "html_url": "https://github.com/bitshares/bitshares-core",
+        "size": 19313,
+        "language": "C++",
+        "subscribers_count": 150,
+        "stargazers_count": 624,
+        "forks_count": 237,
+        "created_at": "2015-10-12T17:36:04Z",
+        "pushed_at": "2018-02-01T01:25:01Z",
+        "updated_at": "2018-02-01T02:33:50Z",
+        "open_issues_count": 120,
+        "license": "mit",
+        "parent": "cryptonomex/graphene"
+      },
       {
         "name": "bitshares-ui",
         "description": "Graphical User Interface for Bitshares",
@@ -3807,6 +4214,22 @@
         "updated_at": "2018-01-27T04:07:25Z",
         "open_issues_count": 94,
         "license": "unlicense"
+      },
+      {
+        "name": "bitshares-pts",
+        "description": "BitShares PTS is being upgraded to DPOS based on a snapshot on December 14th 2014. The new repository can be found here: https://github.com/PTS-DPOS/PTS",
+        "html_url": "https://github.com/bitshares/bitshares-pts",
+        "size": 50198,
+        "language": "TypeScript",
+        "subscribers_count": 55,
+        "stargazers_count": 83,
+        "forks_count": 34,
+        "created_at": "2013-10-24T03:04:09Z",
+        "pushed_at": "2014-08-19T16:22:46Z",
+        "updated_at": "2017-11-29T10:00:17Z",
+        "open_issues_count": 0,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
       },
       {
         "name": "bitshares1-webwallet",
@@ -3879,6 +4302,21 @@
         "updated_at": "2018-01-29T15:06:05Z",
         "open_issues_count": 7,
         "license": "mit"
+      },
+      {
+        "name": "bitshares-fc",
+        "description": null,
+        "html_url": "https://github.com/bitshares/bitshares-fc",
+        "size": 4277,
+        "language": "C++",
+        "subscribers_count": 27,
+        "stargazers_count": 10,
+        "forks_count": 28,
+        "created_at": "2017-01-13T20:20:23Z",
+        "pushed_at": "2018-01-23T17:24:53Z",
+        "updated_at": "2018-01-23T16:31:21Z",
+        "open_issues_count": 1,
+        "parent": "steemit/fc"
       }
     ]
   },
@@ -4353,6 +4791,26 @@
       }
     ]
   },
+  "KMD": {
+    "name": "Komodo",
+    "repos": [
+      {
+        "name": "BarterDEX",
+        "description": "\ud83d\udcc8 BarterDEX: Decentralised Exchange and Cryptocurrency Market",
+        "html_url": "https://github.com/KomodoPlatform/BarterDEX",
+        "size": 37774,
+        "language": "JavaScript",
+        "subscribers_count": 32,
+        "stargazers_count": 69,
+        "forks_count": 35,
+        "created_at": "2017-12-10T22:47:08Z",
+        "pushed_at": "2018-01-31T17:27:59Z",
+        "updated_at": "2018-01-31T23:52:02Z",
+        "open_issues_count": 17,
+        "parent": "siulynot/dexuglygui"
+      }
+    ]
+  },
   "AE": {
     "name": "Aeternity",
     "repos": [
@@ -4500,6 +4958,21 @@
         "license": "mit"
       },
       {
+        "name": "arky",
+        "description": "Pythonic way to work with ARK.io",
+        "html_url": "https://github.com/ArkEcosystem/arky",
+        "size": 29530,
+        "language": "Python",
+        "subscribers_count": 13,
+        "stargazers_count": 34,
+        "forks_count": 24,
+        "created_at": "2017-04-20T12:53:36Z",
+        "pushed_at": "2018-01-29T21:00:16Z",
+        "updated_at": "2018-01-25T15:20:42Z",
+        "open_issues_count": 0,
+        "parent": "Moustikitos/arky"
+      },
+      {
         "name": "ark-client",
         "description": ":tv: CLI client for ARK blockchain",
         "html_url": "https://github.com/ArkEcosystem/ark-client",
@@ -4632,6 +5105,22 @@
     "name": "Decred",
     "repos": [
       {
+        "name": "dcrd",
+        "description": "Decred daemon in Go (golang).",
+        "html_url": "https://github.com/decred/dcrd",
+        "size": 22714,
+        "language": "Go",
+        "subscribers_count": 71,
+        "stargazers_count": 272,
+        "forks_count": 96,
+        "created_at": "2016-01-26T20:28:42Z",
+        "pushed_at": "2018-01-31T23:46:02Z",
+        "updated_at": "2018-01-31T16:52:03Z",
+        "open_issues_count": 53,
+        "license": "isc",
+        "parent": "btcsuite/btcd"
+      },
+      {
         "name": "atomicswap",
         "description": "On-chain atomic swaps for Decred and other cryptocurrencies.",
         "html_url": "https://github.com/decred/atomicswap",
@@ -4645,6 +5134,22 @@
         "updated_at": "2018-01-31T01:45:24Z",
         "open_issues_count": 7,
         "license": "isc"
+      },
+      {
+        "name": "dcrwallet",
+        "description": "A secure Decred wallet daemon written in Go (golang).",
+        "html_url": "https://github.com/decred/dcrwallet",
+        "size": 7410,
+        "language": "Go",
+        "subscribers_count": 33,
+        "stargazers_count": 87,
+        "forks_count": 60,
+        "created_at": "2016-01-26T20:40:34Z",
+        "pushed_at": "2018-01-31T17:20:08Z",
+        "updated_at": "2018-01-31T01:10:15Z",
+        "open_issues_count": 89,
+        "license": "isc",
+        "parent": "btcsuite/btcwallet"
       },
       {
         "name": "decrediton",
@@ -4705,6 +5210,22 @@
         "open_issues_count": 7
       },
       {
+        "name": "gominer",
+        "description": "Go (golang) based GPU miner for Decred.",
+        "html_url": "https://github.com/decred/gominer",
+        "size": 384,
+        "language": "C",
+        "subscribers_count": 13,
+        "stargazers_count": 52,
+        "forks_count": 31,
+        "created_at": "2016-04-29T17:50:38Z",
+        "pushed_at": "2017-10-20T17:57:16Z",
+        "updated_at": "2018-01-31T10:44:32Z",
+        "open_issues_count": 20,
+        "license": "gpl-3.0",
+        "parent": "Dirbaio/gominer"
+      },
+      {
         "name": "dcrstakepool",
         "description": "Stakepool for Decred.",
         "html_url": "https://github.com/decred/dcrstakepool",
@@ -4749,6 +5270,21 @@
         "open_issues_count": 2
       },
       {
+        "name": "cgminer",
+        "description": "cgminer fork for Decred.",
+        "html_url": "https://github.com/decred/cgminer",
+        "size": 14402,
+        "language": null,
+        "subscribers_count": 21,
+        "stargazers_count": 18,
+        "forks_count": 12,
+        "created_at": "2016-01-26T20:11:30Z",
+        "pushed_at": "2017-05-22T18:22:16Z",
+        "updated_at": "2018-01-05T02:00:32Z",
+        "open_issues_count": 0,
+        "parent": "kR105-zz/cgminer"
+      },
+      {
         "name": "dcrweb",
         "description": "Decred website code.",
         "html_url": "https://github.com/decred/dcrweb",
@@ -4776,6 +5312,22 @@
         "updated_at": "2018-01-21T04:27:07Z",
         "open_issues_count": 20,
         "license": "isc"
+      },
+      {
+        "name": "Paymetheus",
+        "description": "Decred wallet for Windows.",
+        "html_url": "https://github.com/decred/Paymetheus",
+        "size": 1174,
+        "language": "C#",
+        "subscribers_count": 11,
+        "stargazers_count": 11,
+        "forks_count": 11,
+        "created_at": "2016-02-16T14:16:39Z",
+        "pushed_at": "2017-09-22T17:42:27Z",
+        "updated_at": "2018-01-22T19:40:49Z",
+        "open_issues_count": 58,
+        "license": "isc",
+        "parent": "btcsuite/Paymetheus"
       }
     ]
   },
@@ -4803,6 +5355,22 @@
     "name": "Electroneum",
     "repos": [
       {
+        "name": "electroneum",
+        "description": "Electroneum: the secure, private, mobile based cryptocurrency",
+        "html_url": "https://github.com/electroneum/electroneum",
+        "size": 131491,
+        "language": "C++",
+        "subscribers_count": 64,
+        "stargazers_count": 216,
+        "forks_count": 91,
+        "created_at": "2017-10-31T22:55:17Z",
+        "pushed_at": "2018-01-31T19:46:25Z",
+        "updated_at": "2018-01-31T13:05:38Z",
+        "open_issues_count": 98,
+        "license": "other",
+        "parent": "monero-project/monero"
+      },
+      {
         "name": "electroneum-pool",
         "description": null,
         "html_url": "https://github.com/electroneum/electroneum-pool",
@@ -4816,6 +5384,27 @@
         "updated_at": "2018-01-31T04:32:28Z",
         "open_issues_count": 65,
         "license": "gpl-2.0"
+      }
+    ]
+  },
+  "PIVX": {
+    "name": "PIVX",
+    "repos": [
+      {
+        "name": "PIVX",
+        "description": "PIVX",
+        "html_url": "https://github.com/PIVX-Project/PIVX",
+        "size": 103617,
+        "language": "C++",
+        "subscribers_count": 101,
+        "stargazers_count": 215,
+        "forks_count": 165,
+        "created_at": "2016-01-30T19:20:24Z",
+        "pushed_at": "2018-02-01T04:25:35Z",
+        "updated_at": "2018-01-30T20:44:24Z",
+        "open_issues_count": 61,
+        "license": "mit",
+        "parent": "dashpay/dash"
       }
     ]
   },
@@ -4974,6 +5563,22 @@
         "updated_at": "2018-01-31T02:48:17Z",
         "open_issues_count": 57,
         "license": "mit"
+      },
+      {
+        "name": "zclassic",
+        "description": "Zclassic is financial freedom.",
+        "html_url": "https://github.com/z-classic/zclassic",
+        "size": 46830,
+        "language": "C++",
+        "subscribers_count": 58,
+        "stargazers_count": 175,
+        "forks_count": 69,
+        "created_at": "2016-11-05T03:22:38Z",
+        "pushed_at": "2018-01-31T16:28:22Z",
+        "updated_at": "2018-01-31T21:35:47Z",
+        "open_issues_count": 27,
+        "license": "other",
+        "parent": "zcash/zcash"
       }
     ]
   },
@@ -5115,6 +5720,22 @@
     "name": "Syscoin",
     "repos": [
       {
+        "name": "syscoin2",
+        "description": "Syscoin2 Core integration/staging tree",
+        "html_url": "https://github.com/syscoin/syscoin2",
+        "size": 106804,
+        "language": "C++",
+        "subscribers_count": 38,
+        "stargazers_count": 50,
+        "forks_count": 12,
+        "created_at": "2016-02-29T03:47:32Z",
+        "pushed_at": "2018-01-31T19:42:11Z",
+        "updated_at": "2018-01-29T15:39:49Z",
+        "open_issues_count": 77,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      },
+      {
         "name": "syscoin",
         "description": "Syscoin is a crypto currency that is universally merge-mineable and offers a unique variety of services including aliases, data storage, marketplaces and certificate management directly on the blockchain.",
         "html_url": "https://github.com/syscoin/syscoin",
@@ -5196,6 +5817,43 @@
         "pushed_at": "2018-01-03T13:33:49Z",
         "updated_at": "2018-01-29T07:33:52Z",
         "open_issues_count": 9
+      }
+    ]
+  },
+  "RDD": {
+    "name": "ReddCoin",
+    "repos": [
+      {
+        "name": "reddcoin",
+        "description": "Reddcoin: the digital social currency",
+        "html_url": "https://github.com/reddcoin-project/reddcoin",
+        "size": 41372,
+        "language": "C++",
+        "subscribers_count": 137,
+        "stargazers_count": 239,
+        "forks_count": 96,
+        "created_at": "2014-03-18T20:29:50Z",
+        "pushed_at": "2018-01-27T12:05:54Z",
+        "updated_at": "2018-01-30T10:17:15Z",
+        "open_issues_count": 56,
+        "license": "mit",
+        "parent": "litecoin-project/litecoin"
+      },
+      {
+        "name": "reddcoin-electrum-server",
+        "description": "Reddcoin Electrum server",
+        "html_url": "https://github.com/reddcoin-project/reddcoin-electrum-server",
+        "size": 1250,
+        "language": "Python",
+        "subscribers_count": 10,
+        "stargazers_count": 12,
+        "forks_count": 13,
+        "created_at": "2014-09-01T07:33:20Z",
+        "pushed_at": "2017-10-08T02:52:18Z",
+        "updated_at": "2018-01-19T08:18:58Z",
+        "open_issues_count": 0,
+        "license": "agpl-3.0",
+        "parent": "spesmilo/electrum-server"
       }
     ]
   },
@@ -5713,6 +6371,22 @@
     "name": "Particl",
     "repos": [
       {
+        "name": "particl-core",
+        "description": "Particl Core integration/staging tree",
+        "html_url": "https://github.com/particl/particl-core",
+        "size": 83716,
+        "language": "C++",
+        "subscribers_count": 29,
+        "stargazers_count": 55,
+        "forks_count": 16,
+        "created_at": "2017-07-17T10:45:54Z",
+        "pushed_at": "2018-01-26T21:24:53Z",
+        "updated_at": "2018-01-29T16:35:54Z",
+        "open_issues_count": 5,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      },
+      {
         "name": "particl-desktop",
         "description": "Particl Angular GUI - The source for the Particl GUI.",
         "html_url": "https://github.com/particl/particl-desktop",
@@ -5783,6 +6457,42 @@
       }
     ]
   },
+  "XDN": {
+    "name": "DigitalNote",
+    "repos": [
+      {
+        "name": "digitalnote",
+        "description": "DigitalNote XDN (duckNote, DarkNote) is a private cryptocurrency with ecrypted messages and deposits",
+        "html_url": "https://github.com/xdn-project/digitalnote",
+        "size": 16908,
+        "language": "C++",
+        "subscribers_count": 33,
+        "stargazers_count": 55,
+        "forks_count": 31,
+        "created_at": "2015-06-06T17:06:48Z",
+        "pushed_at": "2017-08-18T15:28:16Z",
+        "updated_at": "2018-01-23T16:31:20Z",
+        "open_issues_count": 0,
+        "parent": "ducknote/darknote"
+      },
+      {
+        "name": "digitalnotewallet",
+        "description": "DigitalNote graphical QT wallet",
+        "html_url": "https://github.com/xdn-project/digitalnotewallet",
+        "size": 628,
+        "language": "C++",
+        "subscribers_count": 17,
+        "stargazers_count": 29,
+        "forks_count": 21,
+        "created_at": "2015-06-06T17:07:45Z",
+        "pushed_at": "2017-08-18T16:13:55Z",
+        "updated_at": "2018-01-28T04:39:09Z",
+        "open_issues_count": 1,
+        "license": "mit",
+        "parent": "cryptonotefoundation/cryptonotewallet"
+      }
+    ]
+  },
   "RDN": {
     "name": "Raiden Network Token",
     "repos": [
@@ -5833,6 +6543,27 @@
       }
     ]
   },
+  "EMC": {
+    "name": "Emercoin",
+    "repos": [
+      {
+        "name": "emercoin",
+        "description": "EmerCoin Official Development Tree",
+        "html_url": "https://github.com/emercoin/emercoin",
+        "size": 81525,
+        "language": "C++",
+        "subscribers_count": 28,
+        "stargazers_count": 66,
+        "forks_count": 20,
+        "created_at": "2016-02-20T20:14:54Z",
+        "pushed_at": "2018-01-30T14:58:25Z",
+        "updated_at": "2018-01-25T05:34:47Z",
+        "open_issues_count": 8,
+        "license": "other",
+        "parent": "TheSeven/ppcoin"
+      }
+    ]
+  },
   "XP": {
     "name": "Experience Points",
     "repos": [
@@ -5850,6 +6581,27 @@
         "updated_at": "2018-01-31T13:43:47Z",
         "open_issues_count": 10,
         "license": "other"
+      }
+    ]
+  },
+  "UBQ": {
+    "name": "Ubiq",
+    "repos": [
+      {
+        "name": "go-ubiq",
+        "description": "Ubiq fork of Geth",
+        "html_url": "https://github.com/ubiq/go-ubiq",
+        "size": 82517,
+        "language": "Go",
+        "subscribers_count": 27,
+        "stargazers_count": 50,
+        "forks_count": 15,
+        "created_at": "2016-11-19T03:00:31Z",
+        "pushed_at": "2017-12-19T09:53:30Z",
+        "updated_at": "2018-01-28T19:34:31Z",
+        "open_issues_count": 3,
+        "license": "lgpl-3.0",
+        "parent": "ethereum/go-ethereum"
       }
     ]
   },
@@ -6070,9 +6822,46 @@
       }
     ]
   },
+  "ENJ": {
+    "name": "Enjin Coin",
+    "repos": [
+      {
+        "name": "contracts",
+        "description": "Bancor Protocol Contracts",
+        "html_url": "https://github.com/enjin/contracts",
+        "size": 2123,
+        "language": "JavaScript",
+        "subscribers_count": 16,
+        "stargazers_count": 34,
+        "forks_count": 14,
+        "created_at": "2017-08-23T00:13:58Z",
+        "pushed_at": "2017-11-02T04:53:46Z",
+        "updated_at": "2018-01-24T04:26:00Z",
+        "open_issues_count": 0,
+        "license": "apache-2.0",
+        "parent": "bancorprotocol/contracts"
+      }
+    ]
+  },
   "BTCD": {
     "name": "BitcoinDark",
     "repos": [
+      {
+        "name": "komodo",
+        "description": "Komodo",
+        "html_url": "https://github.com/jl777/komodo",
+        "size": 50785,
+        "language": "C++",
+        "subscribers_count": 23,
+        "stargazers_count": 52,
+        "forks_count": 32,
+        "created_at": "2016-09-13T14:45:48Z",
+        "pushed_at": "2018-01-30T13:22:59Z",
+        "updated_at": "2018-01-21T04:14:50Z",
+        "open_issues_count": 1,
+        "license": "other",
+        "parent": "zcash/zcash"
+      },
       {
         "name": "SuperNET",
         "description": null,
@@ -6086,6 +6875,22 @@
         "pushed_at": "2018-01-31T06:58:57Z",
         "updated_at": "2018-01-31T20:06:58Z",
         "open_issues_count": 41
+      },
+      {
+        "name": "btcd",
+        "description": null,
+        "html_url": "https://github.com/jl777/btcd",
+        "size": 213263,
+        "language": "C",
+        "subscribers_count": 14,
+        "stargazers_count": 17,
+        "forks_count": 18,
+        "created_at": "2014-09-15T20:38:32Z",
+        "pushed_at": "2016-04-16T00:37:35Z",
+        "updated_at": "2017-12-22T18:01:21Z",
+        "open_issues_count": 0,
+        "license": "other",
+        "parent": "anengineerinchina/dark-test-v2"
       },
       {
         "name": "libjl777",
@@ -6183,6 +6988,38 @@
     "name": "Vertcoin",
     "repos": [
       {
+        "name": "vertcoin",
+        "description": "A digital currency with mining decentralisation and ASIC resistance as a key focus",
+        "html_url": "https://github.com/vertcoin/vertcoin",
+        "size": 45600,
+        "language": "C++",
+        "subscribers_count": 102,
+        "stargazers_count": 258,
+        "forks_count": 87,
+        "created_at": "2017-02-07T21:38:35Z",
+        "pushed_at": "2018-01-28T18:37:03Z",
+        "updated_at": "2018-01-28T02:03:41Z",
+        "open_issues_count": 5,
+        "license": "mit",
+        "parent": "ahmedbodi/vertcoin"
+      },
+      {
+        "name": "vertcoin-old",
+        "description": "Vertcoin source tree",
+        "html_url": "https://github.com/vertcoin/vertcoin-old",
+        "size": 45507,
+        "language": "C++",
+        "subscribers_count": 30,
+        "stargazers_count": 78,
+        "forks_count": 47,
+        "created_at": "2014-01-09T04:14:43Z",
+        "pushed_at": "2017-02-21T17:26:39Z",
+        "updated_at": "2018-01-23T16:31:20Z",
+        "open_issues_count": 2,
+        "license": "mit",
+        "parent": "litecoin-project/litecoin"
+      },
+      {
         "name": "One-Click-Miner",
         "description": "Interface to easily download and control miner software for CPU's and AMD/Nvidia GPU's.  Also has integrated P2Pool functionality.",
         "html_url": "https://github.com/vertcoin/One-Click-Miner",
@@ -6195,6 +7032,37 @@
         "pushed_at": "2018-01-19T21:07:29Z",
         "updated_at": "2018-01-29T18:39:16Z",
         "open_issues_count": 12
+      },
+      {
+        "name": "electrum-vtc",
+        "description": "Electrum-VTC; Vertcoin thin client",
+        "html_url": "https://github.com/vertcoin/electrum-vtc",
+        "size": 22179,
+        "language": "Python",
+        "subscribers_count": 16,
+        "stargazers_count": 51,
+        "forks_count": 23,
+        "created_at": "2017-05-09T06:24:07Z",
+        "pushed_at": "2018-01-28T06:22:31Z",
+        "updated_at": "2018-01-23T16:31:25Z",
+        "open_issues_count": 6,
+        "license": "mit",
+        "parent": "pooler/electrum-ltc"
+      },
+      {
+        "name": "p2pool-vtc",
+        "description": null,
+        "html_url": "https://github.com/vertcoin/p2pool-vtc",
+        "size": 2598,
+        "language": "Python",
+        "subscribers_count": 19,
+        "stargazers_count": 20,
+        "forks_count": 21,
+        "created_at": "2017-03-01T03:02:27Z",
+        "pushed_at": "2018-01-28T05:14:22Z",
+        "updated_at": "2018-01-25T14:31:55Z",
+        "open_issues_count": 3,
+        "parent": "ahmedbodi/p2pool-vert-dev"
       },
       {
         "name": "vertminer-nvidia",
@@ -6217,6 +7085,21 @@
     "name": "Blocknet",
     "repos": [
       {
+        "name": "BlockDX",
+        "description": "Blocknet",
+        "html_url": "https://github.com/BlocknetDX/BlockDX",
+        "size": 103695,
+        "language": "C++",
+        "subscribers_count": 27,
+        "stargazers_count": 42,
+        "forks_count": 20,
+        "created_at": "2017-07-20T16:55:22Z",
+        "pushed_at": "2018-02-01T01:10:18Z",
+        "updated_at": "2018-01-31T00:58:35Z",
+        "open_issues_count": 10,
+        "parent": "PIVX-Project/PIVX"
+      },
+      {
         "name": "blocknet-docs",
         "description": null,
         "html_url": "https://github.com/BlocknetDX/blocknet-docs",
@@ -6230,6 +7113,26 @@
         "updated_at": "2017-12-30T15:45:03Z",
         "open_issues_count": 5,
         "license": "mit"
+      }
+    ]
+  },
+  "PAC": {
+    "name": "PACcoin",
+    "repos": [
+      {
+        "name": "Paccoin",
+        "description": "A SHA256 coin based on bitcoin and proof of stake",
+        "html_url": "https://github.com/PaccoinCommunity/Paccoin",
+        "size": 2732,
+        "language": "C++",
+        "subscribers_count": 28,
+        "stargazers_count": 33,
+        "forks_count": 21,
+        "created_at": "2017-11-16T20:04:11Z",
+        "pushed_at": "2018-01-26T22:55:23Z",
+        "updated_at": "2018-01-31T04:32:40Z",
+        "open_issues_count": 0,
+        "parent": "wmcorless/paccoin"
       }
     ]
   },
@@ -6478,6 +7381,22 @@
   "ZEN": {
     "name": "ZenCash",
     "repos": [
+      {
+        "name": "zen",
+        "description": "TLS integration and more!",
+        "html_url": "https://github.com/ZencashOfficial/zen",
+        "size": 45674,
+        "language": "C++",
+        "subscribers_count": 51,
+        "stargazers_count": 106,
+        "forks_count": 42,
+        "created_at": "2017-06-08T23:05:59Z",
+        "pushed_at": "2018-01-29T11:34:43Z",
+        "updated_at": "2018-01-30T13:36:48Z",
+        "open_issues_count": 24,
+        "license": "other",
+        "parent": "zencashio/zen"
+      },
       {
         "name": "zencash-swing-wallet-ui",
         "description": "ZENCash Desktop GUI Wallet",
@@ -6789,6 +7708,27 @@
         "pushed_at": "2018-01-13T19:29:16Z",
         "updated_at": "2018-01-19T04:43:28Z",
         "open_issues_count": 2
+      }
+    ]
+  },
+  "PPC": {
+    "name": "Peercoin",
+    "repos": [
+      {
+        "name": "peercoin",
+        "description": "Peercoin Official Development Tree",
+        "html_url": "https://github.com/peercoin/peercoin",
+        "size": 23081,
+        "language": "C++",
+        "subscribers_count": 96,
+        "stargazers_count": 361,
+        "forks_count": 232,
+        "created_at": "2012-07-28T03:07:36Z",
+        "pushed_at": "2018-01-31T23:44:16Z",
+        "updated_at": "2018-01-31T16:31:55Z",
+        "open_issues_count": 50,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
       }
     ]
   },
@@ -7305,6 +8245,27 @@
       }
     ]
   },
+  "BURST": {
+    "name": "Burst",
+    "repos": [
+      {
+        "name": "burstcoin",
+        "description": "Burstcoin Core Development",
+        "html_url": "https://github.com/PoC-Consortium/burstcoin",
+        "size": 64739,
+        "language": "Java",
+        "subscribers_count": 43,
+        "stargazers_count": 89,
+        "forks_count": 37,
+        "created_at": "2017-07-20T14:51:49Z",
+        "pushed_at": "2018-01-30T21:27:33Z",
+        "updated_at": "2018-01-31T21:25:08Z",
+        "open_issues_count": 11,
+        "license": "gpl-3.0",
+        "parent": "burst-team/burstcoin"
+      }
+    ]
+  },
   "ECA": {
     "name": "Electra",
     "repos": [
@@ -7595,6 +8556,37 @@
         "license": "mit"
       },
       {
+        "name": "namecoin-core",
+        "description": "Reimplementation of Namecoin on top of the current Bitcoin Core codebase.",
+        "html_url": "https://github.com/namecoin/namecoin-core",
+        "size": 83434,
+        "language": "C++",
+        "subscribers_count": 55,
+        "stargazers_count": 254,
+        "forks_count": 96,
+        "created_at": "2015-02-11T12:02:31Z",
+        "pushed_at": "2018-01-30T06:28:26Z",
+        "updated_at": "2018-01-29T20:04:12Z",
+        "open_issues_count": 85,
+        "license": "mit",
+        "parent": "domob1812/namecore"
+      },
+      {
+        "name": "nmcontrol",
+        "description": "Namecoin Control.  This repo is deprecated in favor of https://github.com/namecoin/ncdns",
+        "html_url": "https://github.com/namecoin/nmcontrol",
+        "size": 798,
+        "language": "Python",
+        "subscribers_count": 28,
+        "stargazers_count": 112,
+        "forks_count": 35,
+        "created_at": "2013-12-20T00:30:39Z",
+        "pushed_at": "2017-11-19T23:07:38Z",
+        "updated_at": "2018-01-27T01:39:05Z",
+        "open_issues_count": 49,
+        "parent": "khalahan/nmcontrol"
+      },
+      {
         "name": "wiki",
         "description": "Namecoin Wiki \"Git\" - The Namecoin wiki has moved to:",
         "html_url": "https://github.com/namecoin/wiki",
@@ -7607,6 +8599,21 @@
         "pushed_at": "2018-01-13T07:03:57Z",
         "updated_at": "2017-12-15T09:28:55Z",
         "open_issues_count": 5
+      },
+      {
+        "name": "Convergence",
+        "description": "Secure peer-to-peer DNS resolution and HTTPS authentication for Firefox, without certificate authorities, using the Namecoin blockchain.  This repo is deprecated in favor of https://github.com/namecoin/ncdns and https://github.com/namecoin/dns-prop279",
+        "html_url": "https://github.com/namecoin/Convergence",
+        "size": 1309,
+        "language": "JavaScript",
+        "subscribers_count": 10,
+        "stargazers_count": 26,
+        "forks_count": 21,
+        "created_at": "2013-12-20T00:40:57Z",
+        "pushed_at": "2014-11-23T15:24:23Z",
+        "updated_at": "2017-10-13T10:52:47Z",
+        "open_issues_count": 32,
+        "parent": "JeremyRand/Convergence"
       }
     ]
   },
@@ -7627,6 +8634,48 @@
         "updated_at": "2018-01-30T10:39:10Z",
         "open_issues_count": 15,
         "license": "mit"
+      }
+    ]
+  },
+  "DMD": {
+    "name": "Diamond",
+    "repos": [
+      {
+        "name": "Diamond_OLD",
+        "description": null,
+        "html_url": "https://github.com/DMDcoin/Diamond_OLD",
+        "size": 2867,
+        "language": "C++",
+        "subscribers_count": 14,
+        "stargazers_count": 13,
+        "forks_count": 21,
+        "created_at": "2014-05-04T14:30:41Z",
+        "pushed_at": "2017-09-15T19:25:36Z",
+        "updated_at": "2017-09-15T20:27:30Z",
+        "open_issues_count": 0,
+        "license": "mit",
+        "parent": "pitdmd/DMD_Pit"
+      }
+    ]
+  },
+  "VRC": {
+    "name": "VeriCoin",
+    "repos": [
+      {
+        "name": "vericoin",
+        "description": "A Proof-of-Stake-Time Currency",
+        "html_url": "https://github.com/vericoin/vericoin",
+        "size": 92191,
+        "language": "C++",
+        "subscribers_count": 45,
+        "stargazers_count": 81,
+        "forks_count": 20,
+        "created_at": "2014-10-19T15:44:00Z",
+        "pushed_at": "2018-01-11T17:38:08Z",
+        "updated_at": "2018-01-24T21:43:56Z",
+        "open_issues_count": 7,
+        "license": "other",
+        "parent": "JohnDolittle/blackcoin-old"
       }
     ]
   },
@@ -7943,6 +8992,27 @@
       }
     ]
   },
+  "EXP": {
+    "name": "Expanse",
+    "repos": [
+      {
+        "name": "go-expanse",
+        "description": "Jeffrey Wilcke's Go implementation of the Ethereum y/w paper",
+        "html_url": "https://github.com/expanse-org/go-expanse",
+        "size": 160162,
+        "language": "Go",
+        "subscribers_count": 20,
+        "stargazers_count": 36,
+        "forks_count": 18,
+        "created_at": "2015-08-05T21:17:59Z",
+        "pushed_at": "2018-01-24T20:02:00Z",
+        "updated_at": "2018-01-23T03:18:27Z",
+        "open_issues_count": 12,
+        "license": "lgpl-3.0",
+        "parent": "ethereum/go-ethereum"
+      }
+    ]
+  },
   "ONION": {
     "name": "DeepOnion",
     "repos": [
@@ -7994,6 +9064,22 @@
         "updated_at": "2018-01-27T23:29:27Z",
         "open_issues_count": 18,
         "license": "apache-2.0"
+      },
+      {
+        "name": "NumerAPI",
+        "description": "THIS HAS MOVED TO https://github.com/uuazed/numerapi/.",
+        "html_url": "https://github.com/numerai/NumerAPI",
+        "size": 70,
+        "language": "Python",
+        "subscribers_count": 24,
+        "stargazers_count": 50,
+        "forks_count": 14,
+        "created_at": "2017-04-04T20:34:59Z",
+        "pushed_at": "2017-12-13T04:45:52Z",
+        "updated_at": "2018-01-20T05:40:25Z",
+        "open_issues_count": 6,
+        "license": "mit",
+        "parent": "atreichel/NumerAPI"
       }
     ]
   },
@@ -8040,6 +9126,38 @@
   "GOLOS": {
     "name": "Golos",
     "repos": [
+      {
+        "name": "golos",
+        "description": "Socio-economic mediablockchain",
+        "html_url": "https://github.com/GolosChain/golos",
+        "size": 18232,
+        "language": "C++",
+        "subscribers_count": 23,
+        "stargazers_count": 51,
+        "forks_count": 38,
+        "created_at": "2016-08-04T14:29:58Z",
+        "pushed_at": "2018-02-01T05:12:06Z",
+        "updated_at": "2018-01-22T03:22:24Z",
+        "open_issues_count": 124,
+        "license": "other",
+        "parent": "steemit/steem"
+      },
+      {
+        "name": "tolstoy",
+        "description": "Golos Blockchain Social Web Application",
+        "html_url": "https://github.com/GolosChain/tolstoy",
+        "size": 15568,
+        "language": "JavaScript",
+        "subscribers_count": 21,
+        "stargazers_count": 35,
+        "forks_count": 31,
+        "created_at": "2016-08-04T14:30:43Z",
+        "pushed_at": "2018-01-31T12:37:45Z",
+        "updated_at": "2018-01-18T18:00:40Z",
+        "open_issues_count": 137,
+        "license": "mit",
+        "parent": "steemit/condenser"
+      },
       {
         "name": "wiki",
         "description": "\u0412\u0438\u043a\u0438 \u0437\u043d\u0430\u043d\u0438\u044f \u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0435 \u0413\u043e\u043b\u043e\u0441",
@@ -8164,6 +9282,22 @@
         "license": "agpl-3.0"
       },
       {
+        "name": "omnicore",
+        "description": "OmniCore staging tree",
+        "html_url": "https://github.com/OmniLayer/omnicore",
+        "size": 68582,
+        "language": "C++",
+        "subscribers_count": 37,
+        "stargazers_count": 122,
+        "forks_count": 23,
+        "created_at": "2015-03-24T22:48:50Z",
+        "pushed_at": "2017-12-16T18:23:40Z",
+        "updated_at": "2018-01-31T15:46:15Z",
+        "open_issues_count": 67,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      },
+      {
         "name": "OmniJ",
         "description": "OmniLayer for Java and JVM",
         "html_url": "https://github.com/OmniLayer/OmniJ",
@@ -8197,6 +9331,42 @@
         "updated_at": "2018-01-31T05:05:16Z",
         "open_issues_count": 16,
         "license": "other"
+      },
+      {
+        "name": "hushwebminer",
+        "description": "HUSH JS miner",
+        "html_url": "https://github.com/MyHush/hushwebminer",
+        "size": 670,
+        "language": "Perl",
+        "subscribers_count": 11,
+        "stargazers_count": 31,
+        "forks_count": 15,
+        "created_at": "2017-08-08T18:20:16Z",
+        "pushed_at": "2017-10-15T15:37:09Z",
+        "updated_at": "2018-01-30T16:40:59Z",
+        "open_issues_count": 2,
+        "parent": "createthis/yazecminer"
+      }
+    ]
+  },
+  "XMY": {
+    "name": "Myriad",
+    "repos": [
+      {
+        "name": "myriadcoin",
+        "description": "Myriadcoin cryptocurrency - alternate repository for community driven development",
+        "html_url": "https://github.com/myriadteam/myriadcoin",
+        "size": 84247,
+        "language": "C++",
+        "subscribers_count": 22,
+        "stargazers_count": 27,
+        "forks_count": 11,
+        "created_at": "2015-08-16T07:57:37Z",
+        "pushed_at": "2018-01-24T13:53:52Z",
+        "updated_at": "2018-01-26T03:14:02Z",
+        "open_issues_count": 5,
+        "license": "mit",
+        "parent": "myriadcoin/myriadcoin"
       }
     ]
   },
@@ -8334,6 +9504,27 @@
       }
     ]
   },
+  "XPM": {
+    "name": "Primecoin",
+    "repos": [
+      {
+        "name": "primecoin",
+        "description": "Primecoin - First Scientific Computing Cryptocurrency",
+        "html_url": "https://github.com/primecoin/primecoin",
+        "size": 28438,
+        "language": "TypeScript",
+        "subscribers_count": 64,
+        "stargazers_count": 262,
+        "forks_count": 60,
+        "created_at": "2013-03-10T06:00:05Z",
+        "pushed_at": "2017-12-17T14:36:50Z",
+        "updated_at": "2018-01-30T06:32:46Z",
+        "open_issues_count": 4,
+        "license": "other",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
   "CLAM": {
     "name": "Clams",
     "repos": [
@@ -8351,6 +9542,27 @@
         "updated_at": "2018-01-31T16:59:35Z",
         "open_issues_count": 2,
         "license": "agpl-3.0"
+      }
+    ]
+  },
+  "FLO": {
+    "name": "FlorinCoin",
+    "repos": [
+      {
+        "name": "florincoin",
+        "description": "Florin",
+        "html_url": "https://github.com/florincoin/florincoin",
+        "size": 60470,
+        "language": "C++",
+        "subscribers_count": 18,
+        "stargazers_count": 28,
+        "forks_count": 15,
+        "created_at": "2014-06-17T13:28:34Z",
+        "pushed_at": "2018-01-22T17:43:42Z",
+        "updated_at": "2018-01-30T11:02:10Z",
+        "open_issues_count": 6,
+        "license": "mit",
+        "parent": "litecoin-project/litecoin"
       }
     ]
   },
@@ -8691,6 +9903,27 @@
       }
     ]
   },
+  "MEME": {
+    "name": "Memetic / PepeCoin",
+    "repos": [
+      {
+        "name": "pepecoin",
+        "description": "PepeCoin / Memetic - PEPE / MEME - Cryptocurrency - 2.6.2.0",
+        "html_url": "https://github.com/pepeteam/pepecoin",
+        "size": 55348,
+        "language": "C++",
+        "subscribers_count": 10,
+        "stargazers_count": 22,
+        "forks_count": 11,
+        "created_at": "2017-02-24T05:08:47Z",
+        "pushed_at": "2018-01-30T09:16:46Z",
+        "updated_at": "2018-01-30T06:39:44Z",
+        "open_issues_count": 1,
+        "license": "mit",
+        "parent": "memeticproject/memetic-core"
+      }
+    ]
+  },
   "AUR": {
     "name": "Auroracoin",
     "repos": [
@@ -8708,6 +9941,27 @@
         "updated_at": "2018-01-28T18:55:55Z",
         "open_issues_count": 4,
         "license": "mit"
+      }
+    ]
+  },
+  "VRM": {
+    "name": "VeriumReserve",
+    "repos": [
+      {
+        "name": "verium",
+        "description": "A Proof of Work-Time Reserve",
+        "html_url": "https://github.com/VeriumReserve/verium",
+        "size": 146844,
+        "language": "C++",
+        "subscribers_count": 16,
+        "stargazers_count": 23,
+        "forks_count": 19,
+        "created_at": "2016-05-12T15:34:47Z",
+        "pushed_at": "2018-01-05T19:48:37Z",
+        "updated_at": "2018-01-20T06:35:42Z",
+        "open_issues_count": 4,
+        "license": "other",
+        "parent": "vericoin/vericoin"
       }
     ]
   },
@@ -8841,6 +10095,26 @@
       }
     ]
   },
+  "HYP": {
+    "name": "HyperStake",
+    "repos": [
+      {
+        "name": "HyperStake",
+        "description": null,
+        "html_url": "https://github.com/hyperstake/HyperStake",
+        "size": 16052,
+        "language": "C++",
+        "subscribers_count": 12,
+        "stargazers_count": 15,
+        "forks_count": 23,
+        "created_at": "2014-12-01T17:26:52Z",
+        "pushed_at": "2018-01-05T00:46:03Z",
+        "updated_at": "2018-01-28T22:11:19Z",
+        "open_issues_count": 4,
+        "parent": "davidlatapie/HyperStake"
+      }
+    ]
+  },
   "CANN": {
     "name": "CannabisCoin",
     "repos": [
@@ -8929,6 +10203,27 @@
       }
     ]
   },
+  "RIC": {
+    "name": "Riecoin",
+    "repos": [
+      {
+        "name": "riecoin",
+        "description": "Riecoin Core integration/staging tree",
+        "html_url": "https://github.com/riecoin/riecoin",
+        "size": 45260,
+        "language": "C++",
+        "subscribers_count": 13,
+        "stargazers_count": 20,
+        "forks_count": 11,
+        "created_at": "2013-12-30T15:46:51Z",
+        "pushed_at": "2017-06-05T13:09:04Z",
+        "updated_at": "2018-01-20T13:37:05Z",
+        "open_issues_count": 3,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
   "OPT": {
     "name": "Opus",
     "repos": [
@@ -8965,6 +10260,69 @@
         "pushed_at": "2018-01-30T18:47:43Z",
         "updated_at": "2018-01-22T04:21:18Z",
         "open_issues_count": 8
+      }
+    ]
+  },
+  "ZNY": {
+    "name": "Bitzeny",
+    "repos": [
+      {
+        "name": "bitzeny",
+        "description": "BitZeny Core integration/staging tree",
+        "html_url": "https://github.com/bitzeny/bitzeny",
+        "size": 38928,
+        "language": "TypeScript",
+        "subscribers_count": 12,
+        "stargazers_count": 39,
+        "forks_count": 13,
+        "created_at": "2014-10-12T08:45:49Z",
+        "pushed_at": "2017-12-23T09:59:30Z",
+        "updated_at": "2018-01-31T03:44:29Z",
+        "open_issues_count": 3,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
+  "CHC": {
+    "name": "ChainCoin",
+    "repos": [
+      {
+        "name": "chaincoin",
+        "description": "Chaincoin crypto currency",
+        "html_url": "https://github.com/chaincoin/chaincoin",
+        "size": 99633,
+        "language": "C++",
+        "subscribers_count": 50,
+        "stargazers_count": 71,
+        "forks_count": 42,
+        "created_at": "2014-01-18T21:13:16Z",
+        "pushed_at": "2017-12-17T09:44:47Z",
+        "updated_at": "2018-02-01T02:45:25Z",
+        "open_issues_count": 13,
+        "license": "other",
+        "parent": "zetacoin/zetacoin"
+      }
+    ]
+  },
+  "ITNS": {
+    "name": "IntenseCoin",
+    "repos": [
+      {
+        "name": "intensecoin",
+        "description": "An anonymous cryptocurrency",
+        "html_url": "https://github.com/valiant1x/intensecoin",
+        "size": 73668,
+        "language": "C++",
+        "subscribers_count": 12,
+        "stargazers_count": 35,
+        "forks_count": 18,
+        "created_at": "2017-07-15T15:04:18Z",
+        "pushed_at": "2018-02-01T05:17:04Z",
+        "updated_at": "2018-01-31T00:24:55Z",
+        "open_issues_count": 9,
+        "license": "lgpl-3.0",
+        "parent": "cryptonotefoundation/cryptonote"
       }
     ]
   },
@@ -9063,6 +10421,27 @@
       }
     ]
   },
+  "TRUST": {
+    "name": "TrustPlus",
+    "repos": [
+      {
+        "name": "TrustPlus",
+        "description": null,
+        "html_url": "https://github.com/TrustPlus/TrustPlus",
+        "size": 3038,
+        "language": "C++",
+        "subscribers_count": 11,
+        "stargazers_count": 12,
+        "forks_count": 19,
+        "created_at": "2014-07-10T12:43:54Z",
+        "pushed_at": "2017-03-18T00:09:49Z",
+        "updated_at": "2017-09-16T20:30:04Z",
+        "open_issues_count": 0,
+        "license": "mit",
+        "parent": "MitchellMintCoins/TrustPlus"
+      }
+    ]
+  },
   "XMG": {
     "name": "Magi",
     "repos": [
@@ -9115,6 +10494,42 @@
         "updated_at": "2018-01-29T15:01:44Z",
         "open_issues_count": 1,
         "license": "mit"
+      }
+    ]
+  },
+  "KRB": {
+    "name": "Karbo",
+    "repos": [
+      {
+        "name": "karbowanec",
+        "description": "Karbo (Karbovanets) - Digital Exchange Medium - cryptocurrency made in Ukraine, CryptoNote protocol implementation.",
+        "html_url": "https://github.com/seredat/karbowanec",
+        "size": 16862,
+        "language": "C++",
+        "subscribers_count": 22,
+        "stargazers_count": 41,
+        "forks_count": 30,
+        "created_at": "2016-03-25T15:41:19Z",
+        "pushed_at": "2018-01-26T02:08:01Z",
+        "updated_at": "2018-01-31T22:28:41Z",
+        "open_issues_count": 10,
+        "license": "lgpl-3.0",
+        "parent": "cryptonotefoundation/cryptonote"
+      },
+      {
+        "name": "karbowanecwallet",
+        "description": "Karbowanec Wallet - wallet for Karbo (Karbovanets) cryptocurrency.",
+        "html_url": "https://github.com/seredat/karbowanecwallet",
+        "size": 2760,
+        "language": "C++",
+        "subscribers_count": 16,
+        "stargazers_count": 15,
+        "forks_count": 19,
+        "created_at": "2016-05-30T05:56:04Z",
+        "pushed_at": "2018-01-24T21:16:32Z",
+        "updated_at": "2018-01-05T09:46:32Z",
+        "open_issues_count": 0,
+        "parent": "cryptonotefoundation/cryptonotewallet"
       }
     ]
   },
@@ -9210,6 +10625,48 @@
         "updated_at": "2018-02-01T00:23:09Z",
         "open_issues_count": 3,
         "license": "mit"
+      }
+    ]
+  },
+  "ANC": {
+    "name": "Anoncoin",
+    "repos": [
+      {
+        "name": "oldrepo-backup",
+        "description": "Old repo, keept for issues. Use \"anoncoin\" which don't link back to litecoin and suggests PR to be merged there.",
+        "html_url": "https://github.com/Anoncoin/oldrepo-backup",
+        "size": 71654,
+        "language": "C++",
+        "subscribers_count": 44,
+        "stargazers_count": 72,
+        "forks_count": 34,
+        "created_at": "2013-05-03T12:38:55Z",
+        "pushed_at": "2018-01-19T16:56:43Z",
+        "updated_at": "2017-10-29T02:04:06Z",
+        "open_issues_count": 29,
+        "license": "mit",
+        "parent": "litecoin-project/litecoin"
+      }
+    ]
+  },
+  "WDC": {
+    "name": "WorldCoin",
+    "repos": [
+      {
+        "name": "worldcoin-v0.8",
+        "description": "Visit the Worldcoin Alliance",
+        "html_url": "https://github.com/worldcoinproject/worldcoin-v0.8",
+        "size": 27784,
+        "language": "TypeScript",
+        "subscribers_count": 22,
+        "stargazers_count": 14,
+        "forks_count": 18,
+        "created_at": "2013-11-11T08:48:03Z",
+        "pushed_at": "2016-01-30T22:08:54Z",
+        "updated_at": "2017-05-25T02:57:04Z",
+        "open_issues_count": 1,
+        "license": "mit",
+        "parent": "litecoin-project/litecoin"
       }
     ]
   },
@@ -9368,6 +10825,27 @@
       }
     ]
   },
+  "ZET": {
+    "name": "Zetacoin",
+    "repos": [
+      {
+        "name": "zetacoin",
+        "description": "Official Zetacoin repository",
+        "html_url": "https://github.com/zetacoin/zetacoin",
+        "size": 40996,
+        "language": "C++",
+        "subscribers_count": 19,
+        "stargazers_count": 30,
+        "forks_count": 18,
+        "created_at": "2013-08-02T23:32:16Z",
+        "pushed_at": "2018-01-12T09:16:03Z",
+        "updated_at": "2018-01-31T06:16:05Z",
+        "open_issues_count": 4,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
   "HAL": {
     "name": "Halcyon",
     "repos": [
@@ -9385,6 +10863,22 @@
         "updated_at": "2018-01-30T15:06:18Z",
         "open_issues_count": 19,
         "license": "gpl-3.0"
+      },
+      {
+        "name": "cpuminer-neoscrypt",
+        "description": "CPU miner for NeoScrypt",
+        "html_url": "https://github.com/ghostlander/cpuminer-neoscrypt",
+        "size": 797,
+        "language": "Assembly",
+        "subscribers_count": 10,
+        "stargazers_count": 26,
+        "forks_count": 17,
+        "created_at": "2014-06-28T19:38:06Z",
+        "pushed_at": "2016-03-19T21:49:07Z",
+        "updated_at": "2018-01-31T06:16:07Z",
+        "open_issues_count": 1,
+        "license": "gpl-2.0",
+        "parent": "pooler/cpuminer"
       },
       {
         "name": "Phoenixcoin",
@@ -9415,6 +10909,26 @@
         "updated_at": "2017-12-19T08:04:55Z",
         "open_issues_count": 3,
         "license": "bsd-2-clause"
+      }
+    ]
+  },
+  "HODL": {
+    "name": "HOdlcoin",
+    "repos": [
+      {
+        "name": "HOdlcoin",
+        "description": "HODL!",
+        "html_url": "https://github.com/HOdlcoin/HOdlcoin",
+        "size": 55443,
+        "language": "C++",
+        "subscribers_count": 19,
+        "stargazers_count": 20,
+        "forks_count": 18,
+        "created_at": "2016-01-14T07:29:28Z",
+        "pushed_at": "2018-01-25T10:51:34Z",
+        "updated_at": "2018-01-25T07:11:09Z",
+        "open_issues_count": 15,
+        "parent": "bitcoin/bitcoin"
       }
     ]
   },
@@ -9517,6 +11031,22 @@
         "license": "gpl-3.0"
       },
       {
+        "name": "cpuminer-neoscrypt",
+        "description": "CPU miner for NeoScrypt",
+        "html_url": "https://github.com/ghostlander/cpuminer-neoscrypt",
+        "size": 797,
+        "language": "Assembly",
+        "subscribers_count": 10,
+        "stargazers_count": 26,
+        "forks_count": 17,
+        "created_at": "2014-06-28T19:38:06Z",
+        "pushed_at": "2016-03-19T21:49:07Z",
+        "updated_at": "2018-01-31T06:16:07Z",
+        "open_issues_count": 1,
+        "license": "gpl-2.0",
+        "parent": "pooler/cpuminer"
+      },
+      {
         "name": "Phoenixcoin",
         "description": "Phoenixcoin (PXC) is a decentralised open source digital currency.",
         "html_url": "https://github.com/ghostlander/Phoenixcoin",
@@ -9591,6 +11121,22 @@
     "name": "SuperNET",
     "repos": [
       {
+        "name": "komodo",
+        "description": "Komodo",
+        "html_url": "https://github.com/SuperNETorg/komodo",
+        "size": 50735,
+        "language": "C++",
+        "subscribers_count": 21,
+        "stargazers_count": 33,
+        "forks_count": 14,
+        "created_at": "2016-10-12T22:56:40Z",
+        "pushed_at": "2017-12-10T22:38:15Z",
+        "updated_at": "2018-01-29T15:31:21Z",
+        "open_issues_count": 1,
+        "license": "other",
+        "parent": "jl777/komodo"
+      },
+      {
         "name": "Agama",
         "description": "Desktop App for SuperNET DAPPs",
         "html_url": "https://github.com/SuperNETorg/Agama",
@@ -9604,6 +11150,21 @@
         "updated_at": "2018-01-25T06:53:14Z",
         "open_issues_count": 16,
         "license": "mit"
+      },
+      {
+        "name": "EasyDEX-GUI",
+        "description": "Iguana Atomic Swap Wallet",
+        "html_url": "https://github.com/SuperNETorg/EasyDEX-GUI",
+        "size": 23102,
+        "language": "JavaScript",
+        "subscribers_count": 14,
+        "stargazers_count": 13,
+        "forks_count": 12,
+        "created_at": "2016-09-07T01:50:11Z",
+        "pushed_at": "2018-01-31T20:24:25Z",
+        "updated_at": "2018-01-28T11:09:48Z",
+        "open_issues_count": 1,
+        "parent": "satindergrewal/IguanaAtomicSwap"
       }
     ]
   },
@@ -9624,6 +11185,27 @@
         "updated_at": "2018-01-31T06:16:33Z",
         "open_issues_count": 39,
         "license": "mit"
+      }
+    ]
+  },
+  "SDC": {
+    "name": "ShadowCash",
+    "repos": [
+      {
+        "name": "shadow",
+        "description": "ShadowCore integration/staging tree",
+        "html_url": "https://github.com/shadowproject/shadow",
+        "size": 27232,
+        "language": "C++",
+        "subscribers_count": 45,
+        "stargazers_count": 89,
+        "forks_count": 60,
+        "created_at": "2014-07-19T11:14:53Z",
+        "pushed_at": "2017-01-06T16:18:03Z",
+        "updated_at": "2018-01-16T07:14:45Z",
+        "open_issues_count": 29,
+        "license": "mit",
+        "parent": "JohnDolittle/blackcoin-old"
       }
     ]
   },
@@ -9658,6 +11240,27 @@
         "pushed_at": "2017-10-10T11:20:11Z",
         "updated_at": "2018-01-06T19:33:17Z",
         "open_issues_count": 16
+      }
+    ]
+  },
+  "YAC": {
+    "name": "Yacoin",
+    "repos": [
+      {
+        "name": "yacoin",
+        "description": "Official YACoin Development Tree.",
+        "html_url": "https://github.com/yacoin/yacoin",
+        "size": 16615,
+        "language": "C++",
+        "subscribers_count": 18,
+        "stargazers_count": 25,
+        "forks_count": 22,
+        "created_at": "2013-05-15T21:32:24Z",
+        "pushed_at": "2017-12-20T05:09:18Z",
+        "updated_at": "2018-01-16T13:45:05Z",
+        "open_issues_count": 0,
+        "license": "mit",
+        "parent": "pocopoco/yacoin"
       }
     ]
   },
@@ -9741,6 +11344,26 @@
       }
     ]
   },
+  "SBTC": {
+    "name": "Super Bitcoin",
+    "repos": [
+      {
+        "name": "SuperBitcoin",
+        "description": null,
+        "html_url": "https://github.com/superbitcoin/SuperBitcoin",
+        "size": 79739,
+        "language": "C++",
+        "subscribers_count": 29,
+        "stargazers_count": 95,
+        "forks_count": 22,
+        "created_at": "2017-11-16T11:56:01Z",
+        "pushed_at": "2018-02-01T06:02:39Z",
+        "updated_at": "2018-02-01T06:03:14Z",
+        "open_issues_count": 31,
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
   "C20": {
     "name": "CRYPTO20",
     "repos": [
@@ -9820,6 +11443,26 @@
       }
     ]
   },
+  "GRLC": {
+    "name": "Garlicoin",
+    "repos": [
+      {
+        "name": "Garlicoin",
+        "description": "Garlicoin source tree",
+        "html_url": "https://github.com/GarlicoinOrg/Garlicoin",
+        "size": 105544,
+        "language": "C++",
+        "subscribers_count": 18,
+        "stargazers_count": 83,
+        "forks_count": 28,
+        "created_at": "2018-01-02T06:06:27Z",
+        "pushed_at": "2018-02-01T00:23:01Z",
+        "updated_at": "2018-02-01T03:08:28Z",
+        "open_issues_count": 11,
+        "parent": "litecoin-project/litecoin"
+      }
+    ]
+  },
   "BKX": {
     "name": "Bankex",
     "repos": [
@@ -9851,6 +11494,26 @@
         "pushed_at": "2018-01-21T22:46:28Z",
         "updated_at": "2018-01-26T12:35:49Z",
         "open_issues_count": 21
+      }
+    ]
+  },
+  "KB3": {
+    "name": "B3Coin",
+    "repos": [
+      {
+        "name": "B3-CoinV2",
+        "description": "B3-CoinV2",
+        "html_url": "https://github.com/B3-Coin/B3-CoinV2",
+        "size": 5722,
+        "language": "C++",
+        "subscribers_count": 34,
+        "stargazers_count": 37,
+        "forks_count": 50,
+        "created_at": "2017-10-08T14:38:17Z",
+        "pushed_at": "2018-01-03T21:11:04Z",
+        "updated_at": "2018-01-27T15:14:42Z",
+        "open_issues_count": 11,
+        "parent": "LIMXTEC/B3-CoinV2"
       }
     ]
   },
@@ -10161,6 +11824,27 @@
         "updated_at": "2018-01-31T09:09:58Z",
         "open_issues_count": 1,
         "license": "other"
+      }
+    ]
+  },
+  "QORA": {
+    "name": "Qora",
+    "repos": [
+      {
+        "name": "Qora",
+        "description": "Public GIT for the Qora cryptocurrency project.",
+        "html_url": "https://github.com/Qoracoin/Qora",
+        "size": 88543,
+        "language": "Java",
+        "subscribers_count": 29,
+        "stargazers_count": 41,
+        "forks_count": 30,
+        "created_at": "2015-03-15T14:53:32Z",
+        "pushed_at": "2018-01-21T16:52:03Z",
+        "updated_at": "2018-01-28T01:34:41Z",
+        "open_issues_count": 26,
+        "license": "mit",
+        "parent": "razakal/Qora"
       }
     ]
   },

@@ -186,6 +186,22 @@
         "license": "mit"
       },
       {
+        "name": "pyethapp",
+        "description": null,
+        "html_url": "https://github.com/ethereum/pyethapp",
+        "size": 1501,
+        "language": "Python",
+        "subscribers_count": 105,
+        "stargazers_count": 967,
+        "forks_count": 330,
+        "created_at": "2015-04-05T05:26:13Z",
+        "pushed_at": "2018-01-25T00:40:29Z",
+        "updated_at": "2018-01-31T19:47:09Z",
+        "open_issues_count": 85,
+        "license": "mit",
+        "parent": "heikoheiko/pyethapp"
+      },
+      {
         "name": "ethereum-org",
         "description": "Ethereum Foundation website",
         "html_url": "https://github.com/ethereum/ethereum-org",
@@ -481,6 +497,22 @@
         "license": "other"
       },
       {
+        "name": "pydevp2p",
+        "description": "Python Implementation of the Ethereum P2P stack",
+        "html_url": "https://github.com/ethereum/pydevp2p",
+        "size": 500,
+        "language": "Python",
+        "subscribers_count": 40,
+        "stargazers_count": 143,
+        "forks_count": 91,
+        "created_at": "2015-04-05T05:27:20Z",
+        "pushed_at": "2018-02-01T03:56:51Z",
+        "updated_at": "2018-01-30T17:07:13Z",
+        "open_issues_count": 30,
+        "license": "mit",
+        "parent": "heikoheiko/pydevp2p"
+      },
+      {
         "name": "tests",
         "description": "Common tests for all Ethereum implementations",
         "html_url": "https://github.com/ethereum/tests",
@@ -635,6 +667,27 @@
         "updated_at": "2018-01-31T17:15:18Z",
         "open_issues_count": 147,
         "license": "lgpl-3.0"
+      }
+    ]
+  },
+  "LTC": {
+    "name": "Litecoin",
+    "repos": [
+      {
+        "name": "litecoin",
+        "description": "Litecoin source tree",
+        "html_url": "https://github.com/litecoin-project/litecoin",
+        "size": 105943,
+        "language": "C++",
+        "subscribers_count": 530,
+        "stargazers_count": 2761,
+        "forks_count": 1686,
+        "created_at": "2012-06-13T04:18:26Z",
+        "pushed_at": "2018-01-31T01:52:37Z",
+        "updated_at": "2018-01-31T21:28:56Z",
+        "open_issues_count": 18,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
       }
     ]
   },
@@ -1369,6 +1422,27 @@
       }
     ]
   },
+  "DASH": {
+    "name": "Dash",
+    "repos": [
+      {
+        "name": "dash",
+        "description": "Dash - Reinventing Cryptocurrency",
+        "html_url": "https://github.com/dashpay/dash",
+        "size": 113392,
+        "language": "C++",
+        "subscribers_count": 228,
+        "stargazers_count": 886,
+        "forks_count": 577,
+        "created_at": "2014-05-01T17:45:34Z",
+        "pushed_at": "2018-02-01T01:10:53Z",
+        "updated_at": "2018-02-01T00:36:49Z",
+        "open_issues_count": 112,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
   "RDN": {
     "name": "Raiden Network Token",
     "repos": [
@@ -1562,6 +1636,57 @@
       }
     ]
   },
+  "BTS": {
+    "name": "BitShares",
+    "repos": [
+      {
+        "name": "bitshares-core",
+        "description": "Your share in the Decentralized Exchange",
+        "html_url": "https://github.com/bitshares/bitshares-core",
+        "size": 19313,
+        "language": "C++",
+        "subscribers_count": 150,
+        "stargazers_count": 624,
+        "forks_count": 237,
+        "created_at": "2015-10-12T17:36:04Z",
+        "pushed_at": "2018-02-01T01:25:01Z",
+        "updated_at": "2018-02-01T02:33:50Z",
+        "open_issues_count": 120,
+        "license": "mit",
+        "parent": "cryptonomex/graphene"
+      },
+      {
+        "name": "bitshares-ui",
+        "description": "Graphical User Interface for Bitshares",
+        "html_url": "https://github.com/bitshares/bitshares-ui",
+        "size": 21123,
+        "language": "JavaScript",
+        "subscribers_count": 73,
+        "stargazers_count": 258,
+        "forks_count": 242,
+        "created_at": "2015-10-12T17:36:50Z",
+        "pushed_at": "2018-02-01T00:48:33Z",
+        "updated_at": "2018-01-31T03:18:27Z",
+        "open_issues_count": 162,
+        "license": "mit"
+      },
+      {
+        "name": "bitshares1-core",
+        "description": "Financial Smart Contract Platform",
+        "html_url": "https://github.com/bitshares/bitshares1-core",
+        "size": 225006,
+        "language": "C++",
+        "subscribers_count": 91,
+        "stargazers_count": 214,
+        "forks_count": 182,
+        "created_at": "2014-03-11T02:21:45Z",
+        "pushed_at": "2015-10-14T18:30:32Z",
+        "updated_at": "2018-01-27T04:07:25Z",
+        "open_issues_count": 94,
+        "license": "unlicense"
+      }
+    ]
+  },
   "ENG": {
     "name": "Enigma",
     "repos": [
@@ -1710,6 +1835,27 @@
       }
     ]
   },
+  "PPC": {
+    "name": "Peercoin",
+    "repos": [
+      {
+        "name": "peercoin",
+        "description": "Peercoin Official Development Tree",
+        "html_url": "https://github.com/peercoin/peercoin",
+        "size": 23081,
+        "language": "C++",
+        "subscribers_count": 96,
+        "stargazers_count": 361,
+        "forks_count": 232,
+        "created_at": "2012-07-28T03:07:36Z",
+        "pushed_at": "2018-01-31T23:44:16Z",
+        "updated_at": "2018-01-31T16:31:55Z",
+        "open_issues_count": 50,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
   "NMC": {
     "name": "Namecoin",
     "repos": [
@@ -1727,6 +1873,37 @@
         "updated_at": "2018-01-29T20:04:07Z",
         "open_issues_count": 49,
         "license": "mit"
+      },
+      {
+        "name": "namecoin-core",
+        "description": "Reimplementation of Namecoin on top of the current Bitcoin Core codebase.",
+        "html_url": "https://github.com/namecoin/namecoin-core",
+        "size": 83434,
+        "language": "C++",
+        "subscribers_count": 55,
+        "stargazers_count": 254,
+        "forks_count": 96,
+        "created_at": "2015-02-11T12:02:31Z",
+        "pushed_at": "2018-01-30T06:28:26Z",
+        "updated_at": "2018-01-29T20:04:12Z",
+        "open_issues_count": 85,
+        "license": "mit",
+        "parent": "domob1812/namecore"
+      },
+      {
+        "name": "nmcontrol",
+        "description": "Namecoin Control.  This repo is deprecated in favor of https://github.com/namecoin/ncdns",
+        "html_url": "https://github.com/namecoin/nmcontrol",
+        "size": 798,
+        "language": "Python",
+        "subscribers_count": 28,
+        "stargazers_count": 112,
+        "forks_count": 35,
+        "created_at": "2013-12-20T00:30:39Z",
+        "pushed_at": "2017-11-19T23:07:38Z",
+        "updated_at": "2018-01-27T01:39:05Z",
+        "open_issues_count": 49,
+        "parent": "khalahan/nmcontrol"
       }
     ]
   },
@@ -1782,6 +1959,22 @@
         "updated_at": "2018-02-01T03:30:35Z",
         "open_issues_count": 91,
         "license": "mit"
+      },
+      {
+        "name": "NStratis",
+        "description": "Comprehensive Bitcoin library for the .NET framework.",
+        "html_url": "https://github.com/stratisproject/NStratis",
+        "size": 44546,
+        "language": "C#",
+        "subscribers_count": 36,
+        "stargazers_count": 109,
+        "forks_count": 59,
+        "created_at": "2016-08-18T14:16:04Z",
+        "pushed_at": "2017-11-05T20:44:49Z",
+        "updated_at": "2018-01-29T15:28:37Z",
+        "open_issues_count": 5,
+        "license": "mit",
+        "parent": "MetacoSA/NBitcoin"
       }
     ]
   },
@@ -1913,41 +2106,6 @@
         "updated_at": "2018-01-31T18:29:36Z",
         "open_issues_count": 34,
         "license": "agpl-3.0"
-      }
-    ]
-  },
-  "BTS": {
-    "name": "BitShares",
-    "repos": [
-      {
-        "name": "bitshares-ui",
-        "description": "Graphical User Interface for Bitshares",
-        "html_url": "https://github.com/bitshares/bitshares-ui",
-        "size": 21123,
-        "language": "JavaScript",
-        "subscribers_count": 73,
-        "stargazers_count": 258,
-        "forks_count": 242,
-        "created_at": "2015-10-12T17:36:50Z",
-        "pushed_at": "2018-02-01T00:48:33Z",
-        "updated_at": "2018-01-31T03:18:27Z",
-        "open_issues_count": 162,
-        "license": "mit"
-      },
-      {
-        "name": "bitshares1-core",
-        "description": "Financial Smart Contract Platform",
-        "html_url": "https://github.com/bitshares/bitshares1-core",
-        "size": 225006,
-        "language": "C++",
-        "subscribers_count": 91,
-        "stargazers_count": 214,
-        "forks_count": 182,
-        "created_at": "2014-03-11T02:21:45Z",
-        "pushed_at": "2015-10-14T18:30:32Z",
-        "updated_at": "2018-01-27T04:07:25Z",
-        "open_issues_count": 94,
-        "license": "unlicense"
       }
     ]
   },
@@ -2106,6 +2264,27 @@
       }
     ]
   },
+  "PIVX": {
+    "name": "PIVX",
+    "repos": [
+      {
+        "name": "PIVX",
+        "description": "PIVX",
+        "html_url": "https://github.com/PIVX-Project/PIVX",
+        "size": 103617,
+        "language": "C++",
+        "subscribers_count": 101,
+        "stargazers_count": 215,
+        "forks_count": 165,
+        "created_at": "2016-01-30T19:20:24Z",
+        "pushed_at": "2018-02-01T04:25:35Z",
+        "updated_at": "2018-01-30T20:44:24Z",
+        "open_issues_count": 61,
+        "license": "mit",
+        "parent": "dashpay/dash"
+      }
+    ]
+  },
   "MYST": {
     "name": "Mysterium",
     "repos": [
@@ -2160,6 +2339,27 @@
       }
     ]
   },
+  "RDD": {
+    "name": "ReddCoin",
+    "repos": [
+      {
+        "name": "reddcoin",
+        "description": "Reddcoin: the digital social currency",
+        "html_url": "https://github.com/reddcoin-project/reddcoin",
+        "size": 41372,
+        "language": "C++",
+        "subscribers_count": 137,
+        "stargazers_count": 239,
+        "forks_count": 96,
+        "created_at": "2014-03-18T20:29:50Z",
+        "pushed_at": "2018-01-27T12:05:54Z",
+        "updated_at": "2018-01-30T10:17:15Z",
+        "open_issues_count": 56,
+        "license": "mit",
+        "parent": "litecoin-project/litecoin"
+      }
+    ]
+  },
   "XAS": {
     "name": "Asch",
     "repos": [
@@ -2196,6 +2396,27 @@
         "updated_at": "2018-01-16T14:25:18Z",
         "open_issues_count": 0,
         "license": "mit"
+      }
+    ]
+  },
+  "VTC": {
+    "name": "Vertcoin",
+    "repos": [
+      {
+        "name": "vertcoin",
+        "description": "A digital currency with mining decentralisation and ASIC resistance as a key focus",
+        "html_url": "https://github.com/vertcoin/vertcoin",
+        "size": 45600,
+        "language": "C++",
+        "subscribers_count": 102,
+        "stargazers_count": 258,
+        "forks_count": 87,
+        "created_at": "2017-02-07T21:38:35Z",
+        "pushed_at": "2018-01-28T18:37:03Z",
+        "updated_at": "2018-01-28T02:03:41Z",
+        "open_issues_count": 5,
+        "license": "mit",
+        "parent": "ahmedbodi/vertcoin"
       }
     ]
   },
@@ -2269,6 +2490,42 @@
         "pushed_at": "2018-01-20T19:14:32Z",
         "updated_at": "2018-01-23T16:40:06Z",
         "open_issues_count": 176
+      }
+    ]
+  },
+  "DCR": {
+    "name": "Decred",
+    "repos": [
+      {
+        "name": "dcrd",
+        "description": "Decred daemon in Go (golang).",
+        "html_url": "https://github.com/decred/dcrd",
+        "size": 22714,
+        "language": "Go",
+        "subscribers_count": 71,
+        "stargazers_count": 272,
+        "forks_count": 96,
+        "created_at": "2016-01-26T20:28:42Z",
+        "pushed_at": "2018-01-31T23:46:02Z",
+        "updated_at": "2018-01-31T16:52:03Z",
+        "open_issues_count": 53,
+        "license": "isc",
+        "parent": "btcsuite/btcd"
+      },
+      {
+        "name": "atomicswap",
+        "description": "On-chain atomic swaps for Decred and other cryptocurrencies.",
+        "html_url": "https://github.com/decred/atomicswap",
+        "size": 87,
+        "language": "Go",
+        "subscribers_count": 44,
+        "stargazers_count": 242,
+        "forks_count": 84,
+        "created_at": "2017-09-08T18:40:24Z",
+        "pushed_at": "2018-01-19T17:42:10Z",
+        "updated_at": "2018-01-31T01:45:24Z",
+        "open_issues_count": 7,
+        "license": "isc"
       }
     ]
   },
@@ -2358,6 +2615,22 @@
         "updated_at": "2018-01-31T02:48:17Z",
         "open_issues_count": 57,
         "license": "mit"
+      },
+      {
+        "name": "zclassic",
+        "description": "Zclassic is financial freedom.",
+        "html_url": "https://github.com/z-classic/zclassic",
+        "size": 46830,
+        "language": "C++",
+        "subscribers_count": 58,
+        "stargazers_count": 175,
+        "forks_count": 69,
+        "created_at": "2016-11-05T03:22:38Z",
+        "pushed_at": "2018-01-31T16:28:22Z",
+        "updated_at": "2018-01-31T21:35:47Z",
+        "open_issues_count": 27,
+        "license": "other",
+        "parent": "zcash/zcash"
       }
     ]
   },
@@ -2461,23 +2734,60 @@
       }
     ]
   },
-  "DCR": {
-    "name": "Decred",
+  "XPM": {
+    "name": "Primecoin",
     "repos": [
       {
-        "name": "atomicswap",
-        "description": "On-chain atomic swaps for Decred and other cryptocurrencies.",
-        "html_url": "https://github.com/decred/atomicswap",
-        "size": 87,
-        "language": "Go",
-        "subscribers_count": 44,
-        "stargazers_count": 242,
-        "forks_count": 84,
-        "created_at": "2017-09-08T18:40:24Z",
-        "pushed_at": "2018-01-19T17:42:10Z",
-        "updated_at": "2018-01-31T01:45:24Z",
-        "open_issues_count": 7,
-        "license": "isc"
+        "name": "primecoin",
+        "description": "Primecoin - First Scientific Computing Cryptocurrency",
+        "html_url": "https://github.com/primecoin/primecoin",
+        "size": 28438,
+        "language": "TypeScript",
+        "subscribers_count": 64,
+        "stargazers_count": 262,
+        "forks_count": 60,
+        "created_at": "2013-03-10T06:00:05Z",
+        "pushed_at": "2017-12-17T14:36:50Z",
+        "updated_at": "2018-01-30T06:32:46Z",
+        "open_issues_count": 4,
+        "license": "other",
+        "parent": "bitcoin/bitcoin"
+      }
+    ]
+  },
+  "ETN": {
+    "name": "Electroneum",
+    "repos": [
+      {
+        "name": "electroneum",
+        "description": "Electroneum: the secure, private, mobile based cryptocurrency",
+        "html_url": "https://github.com/electroneum/electroneum",
+        "size": 131491,
+        "language": "C++",
+        "subscribers_count": 64,
+        "stargazers_count": 216,
+        "forks_count": 91,
+        "created_at": "2017-10-31T22:55:17Z",
+        "pushed_at": "2018-01-31T19:46:25Z",
+        "updated_at": "2018-01-31T13:05:38Z",
+        "open_issues_count": 98,
+        "license": "other",
+        "parent": "monero-project/monero"
+      },
+      {
+        "name": "electroneum-pool",
+        "description": null,
+        "html_url": "https://github.com/electroneum/electroneum-pool",
+        "size": 424,
+        "language": "JavaScript",
+        "subscribers_count": 26,
+        "stargazers_count": 137,
+        "forks_count": 134,
+        "created_at": "2017-11-01T02:11:22Z",
+        "pushed_at": "2018-01-31T16:10:16Z",
+        "updated_at": "2018-01-31T04:32:28Z",
+        "open_issues_count": 65,
+        "license": "gpl-2.0"
       }
     ]
   },
@@ -2736,26 +3046,22 @@
         "updated_at": "2018-01-29T20:22:36Z",
         "open_issues_count": 228,
         "license": "agpl-3.0"
-      }
-    ]
-  },
-  "ETN": {
-    "name": "Electroneum",
-    "repos": [
+      },
       {
-        "name": "electroneum-pool",
-        "description": null,
-        "html_url": "https://github.com/electroneum/electroneum-pool",
-        "size": 424,
-        "language": "JavaScript",
-        "subscribers_count": 26,
-        "stargazers_count": 137,
-        "forks_count": 134,
-        "created_at": "2017-11-01T02:11:22Z",
-        "pushed_at": "2018-01-31T16:10:16Z",
-        "updated_at": "2018-01-31T04:32:28Z",
-        "open_issues_count": 65,
-        "license": "gpl-2.0"
+        "name": "omnicore",
+        "description": "OmniCore staging tree",
+        "html_url": "https://github.com/OmniLayer/omnicore",
+        "size": 68582,
+        "language": "C++",
+        "subscribers_count": 37,
+        "stargazers_count": 122,
+        "forks_count": 23,
+        "created_at": "2015-03-24T22:48:50Z",
+        "pushed_at": "2017-12-16T18:23:40Z",
+        "updated_at": "2018-01-31T15:46:15Z",
+        "open_issues_count": 67,
+        "license": "mit",
+        "parent": "bitcoin/bitcoin"
       }
     ]
   },
@@ -3108,6 +3414,27 @@
         "updated_at": "2018-01-31T17:22:04Z",
         "open_issues_count": 2,
         "license": "mit"
+      }
+    ]
+  },
+  "ZEN": {
+    "name": "ZenCash",
+    "repos": [
+      {
+        "name": "zen",
+        "description": "TLS integration and more!",
+        "html_url": "https://github.com/ZencashOfficial/zen",
+        "size": 45674,
+        "language": "C++",
+        "subscribers_count": 51,
+        "stargazers_count": 106,
+        "forks_count": 42,
+        "created_at": "2017-06-08T23:05:59Z",
+        "pushed_at": "2018-01-29T11:34:43Z",
+        "updated_at": "2018-01-30T13:36:48Z",
+        "open_issues_count": 24,
+        "license": "other",
+        "parent": "zencashio/zen"
       }
     ]
   },

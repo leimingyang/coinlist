@@ -243,8 +243,8 @@ def get_good_repos():
         best_repos = []
         max_total = 0
         for r in repos:
-            if 'parent' in r:
-                continue
+            # if 'parent' in r:
+            #     continue
 
             subscribers = r['subscribers_count']
             stargazers = r['stargazers_count']
